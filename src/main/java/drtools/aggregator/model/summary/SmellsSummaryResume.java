@@ -5,32 +5,36 @@ import drtools.aggregator.model.Granularity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = SmellsSummaryResume.TABLE_NAME)
 public class SmellsSummaryResume {
+
+    public static final String TABLE_NAME = "smells_summary_resume";
+
     @Id
     @GeneratedValue
     private int id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "execution_id", referencedColumnName = "id")
     private Execution execution;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.ORDINAL)
     @Column(nullable = false)
     private Granularity granularity;
 
     @Column(nullable = false)
     private int total;
 
-    private double percTotal;
+    private double percentTotal;
 
     @Column(nullable = false)
     private int totalSmells;
 
-    private double percTotalSmells;
+    private double percentTotalSmells;
 
     private int moreThanOneSmell;
 
-    private double percMoreThanOneSmell;
+    private double percentMoreThanOneSmell;
 
     public int getId() {
         return id;
@@ -64,12 +68,12 @@ public class SmellsSummaryResume {
         this.total = total;
     }
 
-    public double getPercTotal() {
-        return percTotal;
+    public double getPercentTotal() {
+        return percentTotal;
     }
 
-    public void setPercTotal(double percTotal) {
-        this.percTotal = percTotal;
+    public void setPercentTotal(double percentTotal) {
+        this.percentTotal = percentTotal;
     }
 
     public int getTotalSmells() {
@@ -80,12 +84,12 @@ public class SmellsSummaryResume {
         this.totalSmells = totalSmells;
     }
 
-    public double getPercTotalSmells() {
-        return percTotalSmells;
+    public double getPercentTotalSmells() {
+        return percentTotalSmells;
     }
 
-    public void setPercTotalSmells(double percTotalSmells) {
-        this.percTotalSmells = percTotalSmells;
+    public void setPercentTotalSmells(double percentTotalSmells) {
+        this.percentTotalSmells = percentTotalSmells;
     }
 
     public int getMoreThanOneSmell() {
@@ -96,11 +100,11 @@ public class SmellsSummaryResume {
         this.moreThanOneSmell = moreThanOneSmell;
     }
 
-    public double getPercMoreThanOneSmell() {
-        return percMoreThanOneSmell;
+    public double getPercentMoreThanOneSmell() {
+        return percentMoreThanOneSmell;
     }
 
-    public void setPercMoreThanOneSmell(double percMoreThanOneSmell) {
-        this.percMoreThanOneSmell = percMoreThanOneSmell;
+    public void setPercentMoreThanOneSmell(double percentMoreThanOneSmell) {
+        this.percentMoreThanOneSmell = percentMoreThanOneSmell;
     }
 }

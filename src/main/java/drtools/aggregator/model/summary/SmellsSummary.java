@@ -2,16 +2,20 @@ package drtools.aggregator.model.summary;
 
 import drtools.aggregator.model.Execution;
 import drtools.aggregator.model.Granularity;
-import drtools.aggregator.model.Smell;
+import drtools.aggregator.model.smell.Smell;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = SmellsSummary.TABLE_NAME)
 public class SmellsSummary {
+
+    public static final String TABLE_NAME = "smells_summary";
+
     @Id
     @GeneratedValue
     private int id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "execution_id", referencedColumnName = "id")
     private Execution execution;
 

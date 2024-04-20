@@ -5,14 +5,16 @@ import drtools.aggregator.model.Granularity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "SUMMARY_QUALITY_ATTRIBUTES")
+@Table(name = QualityAttributesSummary.TABLE_NAME)
 public class QualityAttributesSummary {
+
+    public static final String TABLE_NAME = "quality_attributes_summary";
 
     @Id
     @GeneratedValue
     private int id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "execution_id", referencedColumnName = "id")
     private Execution execution;
 

@@ -5,12 +5,16 @@ import drtools.aggregator.model.Granularity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = InterventionSummary.TABLE_NAME)
 public class InterventionSummary {
+
+    public static final String TABLE_NAME = "intervention_summary";
+
     @Id
     @GeneratedValue
     private int id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "execution_id", referencedColumnName = "id")
     private Execution execution;
 

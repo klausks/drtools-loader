@@ -21,7 +21,7 @@ public class SmellConfig {
     private Smell smell;
 
     @ManyToOne
-    @JoinColumn(name = "execution_id", referencedColumnName = "id")
+    @JoinColumn(name = "last_execution_id", referencedColumnName = "id")
     private Execution lastExecution;
 
     @Enumerated(EnumType.ORDINAL)

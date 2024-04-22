@@ -13,7 +13,7 @@ public class ImportanceConfig {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name = "execution_id", referencedColumnName = "id")
+    @JoinColumn(name = "last_execution_id", referencedColumnName = "id")
     private Execution lastExecution;
 
     @Column(nullable = false, unique = true)

@@ -2,8 +2,6 @@ package drtools.aggregator.model.smell;
 
 import drtools.aggregator.model.Granularity;
 import drtools.aggregator.model.QualityAttribute;
-import drtools.aggregator.model.criteria.Importance;
-import drtools.aggregator.model.criteria.Intervention;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -19,21 +17,13 @@ public class Smell {
     private int id;
 
     @Column(unique = true, nullable = false)
-    String name;
+    private String name;
 
     String description;
 
     @Enumerated(EnumType.ORDINAL)
     @Column(nullable = false)
-    Granularity granularity;
-
-    @Enumerated(EnumType.ORDINAL)
-    @Column(nullable = false)
-    Importance importance;
-
-    @Enumerated(EnumType.ORDINAL)
-    @Column(nullable = false)
-    Intervention intervention;
+    private Granularity granularity;
 
     @ManyToMany
     @JoinTable(
@@ -41,7 +31,7 @@ public class Smell {
             joinColumns = @JoinColumn(name = "smell_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "quality_attribute_id", referencedColumnName = "id")
     )
-    List<QualityAttribute> impactedQualityAttributes;
+    private List<QualityAttribute> impactedQualityAttributes;
 
     public int getId() {
         return id;
@@ -73,22 +63,6 @@ public class Smell {
 
     public void setGranularity(Granularity granularity) {
         this.granularity = granularity;
-    }
-
-    public Importance getImportance() {
-        return importance;
-    }
-
-    public void setImportance(Importance importance) {
-        this.importance = importance;
-    }
-
-    public Intervention getIntervention() {
-        return intervention;
-    }
-
-    public void setIntervention(Intervention intervention) {
-        this.intervention = intervention;
     }
 
     public List<QualityAttribute> getImpactedQualityAttributes() {

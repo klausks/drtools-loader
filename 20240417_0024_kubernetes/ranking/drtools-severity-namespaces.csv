@@ -1,0 +1,4 @@
+"namespace","severity","norm_severity","smell","quality"
+"io.kubernetes.client.openapi.models","19,929","10.0","Too Large Package/Subsystem","Understandability, Modularity"
+"io.kubernetes.client.openapi.apis","2,071","1.0358565737051795","Too Large Package/Subsystem","Understandability, Modularity"
+"io.kubernetes.client.openapi","2,000","1.0","Cyclic Dependency","Coupling, Modularity"

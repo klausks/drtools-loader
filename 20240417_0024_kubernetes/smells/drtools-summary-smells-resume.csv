@@ -1,0 +1,4 @@
+"granularity","total_smells","perc_total_smells","more_than_one_smell","perc_more_than_one_smell","total","perc_total"
+"NAMESPACE",3,"42,86%",0,"0,00%",7,"0,00%"
+"TYPE",622,"94,39%",209,"33,60%",659,"31,71%"
+"METHOD",3537,"14,47%",1345,"38,03%",24448,"5,50%"

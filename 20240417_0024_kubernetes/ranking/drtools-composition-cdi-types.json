@@ -1,0 +1,2474 @@
+[
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreV1Api",
+        "cdi": "33,964"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsV1Api",
+        "cdi": "15,761"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiClient",
+        "cdi": "13,548"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageV1Api",
+        "cdi": "12,449"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceV1alpha2Api",
+        "cdi": "12,447"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Container",
+        "cdi": "12,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationV1Api",
+        "cdi": "11,431"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSpec",
+        "cdi": "11,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1Api",
+        "cdi": "10,816"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CustomObjectsApi",
+        "cdi": "10,344"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchV1Api",
+        "cdi": "10,223"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodStatus",
+        "cdi": "10,105"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta2Api",
+        "cdi": "9,526"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta3Api",
+        "cdi": "9,526"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralContainer",
+        "cdi": "9,411"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1alpha1Api",
+        "cdi": "9,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1beta1Api",
+        "cdi": "9,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JSONSchemaProps",
+        "cdi": "8,891"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Volume",
+        "cdi": "8,855"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeSpec",
+        "cdi": "8,773"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1Api",
+        "cdi": "8,768"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1alpha1Api",
+        "cdi": "8,768"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV1Api",
+        "cdi": "8,704"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV2Api",
+        "cdi": "8,704"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyV1Api",
+        "cdi": "8,614"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsV1Api",
+        "cdi": "8,340"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1Api",
+        "cdi": "8,304"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationV1Api",
+        "cdi": "8,269"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryV1Api",
+        "cdi": "8,269"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceSpec",
+        "cdi": "8,182"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsV1Api",
+        "cdi": "8,011"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationV1Api",
+        "cdi": "8,011"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverV1alpha1Api",
+        "cdi": "8,011"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1alpha1Api",
+        "cdi": "7,751"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeV1Api",
+        "cdi": "7,751"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingV1Api",
+        "cdi": "7,751"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationV1Api",
+        "cdi": "6,675"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1Event",
+        "cdi": "5,950"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeStatus",
+        "cdi": "5,810"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.JSON",
+        "cdi": "5,688"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1Event",
+        "cdi": "5,602"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhook",
+        "cdi": "5,564"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoint",
+        "cdi": "5,553"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectMeta",
+        "cdi": "5,478"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicySpec",
+        "cdi": "5,417"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicySpec",
+        "cdi": "5,417"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Status",
+        "cdi": "5,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhook",
+        "cdi": "5,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSubset",
+        "cdi": "5,297"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PolicyRulesWithSubjects",
+        "cdi": "5,251"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PolicyRulesWithSubjects",
+        "cdi": "5,251"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressSpec",
+        "cdi": "5,230"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicySpec",
+        "cdi": "5,216"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionStatus",
+        "cdi": "5,029"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1NamedRuleWithOperations",
+        "cdi": "4,970"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1NamedRuleWithOperations",
+        "cdi": "4,970"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingList",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyList",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingList",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyList",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatus",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoints",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfiguration",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Role",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfiguration",
+        "cdi": "4,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClass",
+        "cdi": "4,952"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PolicyRule",
+        "cdi": "4,949"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIVersions",
+        "cdi": "4,937"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBindingList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatusList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevisionList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacityList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSliceList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointsList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfigurationList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClassList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBindingList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClassList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClassList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfigurationList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerList",
+        "cdi": "4,915"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewSpec",
+        "cdi": "4,838"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResourceList",
+        "cdi": "4,828"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ResourcePolicyRule",
+        "cdi": "4,794"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ResourcePolicyRule",
+        "cdi": "4,794"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuleWithOperations",
+        "cdi": "4,768"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyRule",
+        "cdi": "4,765"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerIngress",
+        "cdi": "4,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerIngress",
+        "cdi": "4,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRule",
+        "cdi": "4,746"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimStatus",
+        "cdi": "4,720"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectRulesReviewStatus",
+        "cdi": "4,717"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroupList",
+        "cdi": "4,714"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimStatus",
+        "cdi": "4,700"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaSpec",
+        "cdi": "4,684"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaSpec",
+        "cdi": "4,684"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinityTerm",
+        "cdi": "4,633"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfig",
+        "cdi": "4,630"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ServerStorageVersion",
+        "cdi": "4,630"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionStatus",
+        "cdi": "4,629"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1alpha1Api",
+        "cdi": "4,615"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1beta1Api",
+        "cdi": "4,615"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResource",
+        "cdi": "4,594"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GitRepoVolumeSource",
+        "cdi": "4,564"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceFieldSelector",
+        "cdi": "4,564"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingSpec",
+        "cdi": "4,561"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingSpec",
+        "cdi": "4,561"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1Api",
+        "cdi": "4,554"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeDriver",
+        "cdi": "4,546"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnExitCodesRequirement",
+        "cdi": "4,519"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapVolumeSource",
+        "cdi": "4,505"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretVolumeSource",
+        "cdi": "4,505"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapProjection",
+        "cdi": "4,499"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretProjection",
+        "cdi": "4,499"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingRules",
+        "cdi": "4,499"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSpec",
+        "cdi": "4,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVar",
+        "cdi": "4,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroup",
+        "cdi": "4,489"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSlice",
+        "cdi": "4,489"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectReference",
+        "cdi": "4,484"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceAttributes",
+        "cdi": "4,484"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDPersistentVolumeSource",
+        "cdi": "4,444"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDVolumeSource",
+        "cdi": "4,444"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyStatus",
+        "cdi": "4,432"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2AllocationResult",
+        "cdi": "4,432"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyStatus",
+        "cdi": "4,432"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationSpec",
+        "cdi": "4,430"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationSpec",
+        "cdi": "4,430"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccount",
+        "cdi": "4,427"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOPersistentVolumeSource",
+        "cdi": "4,424"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOVolumeSource",
+        "cdi": "4,424"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacity",
+        "cdi": "4,422"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimSpec",
+        "cdi": "4,413"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimParametersReference",
+        "cdi": "4,410"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CrossVersionObjectReference",
+        "cdi": "4,410"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresourceScale",
+        "cdi": "4,410"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedLocalObjectReference",
+        "cdi": "4,410"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2CrossVersionObjectReference",
+        "cdi": "4,410"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetSpec",
+        "cdi": "4,404"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageApi",
+        "cdi": "4,372"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApisApi",
+        "cdi": "4,371"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreApi",
+        "cdi": "4,371"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewStatus",
+        "cdi": "4,366"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchResources",
+        "cdi": "4,360"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchResources",
+        "cdi": "4,360"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvFromSource",
+        "cdi": "4,359"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSpec",
+        "cdi": "4,356"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestSpec",
+        "cdi": "4,345"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelectorRequirement",
+        "cdi": "4,345"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorRequirement",
+        "cdi": "4,345"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopedResourceSelectorRequirement",
+        "cdi": "4,345"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIPersistentVolumeSource",
+        "cdi": "4,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentStatus",
+        "cdi": "4,331"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.OpenidApi",
+        "cdi": "4,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.VersionApi",
+        "cdi": "4,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.WellKnownApi",
+        "cdi": "4,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressPath",
+        "cdi": "4,323"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.LogsApi",
+        "cdi": "4,321"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapKeySelector",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressPortStatus",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortStatus",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortworxVolumeSource",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretKeySelector",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountTokenProjection",
+        "cdi": "4,302"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPGetAction",
+        "cdi": "4,298"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Affinity",
+        "cdi": "4,292"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerState",
+        "cdi": "4,292"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LifecycleHandler",
+        "cdi": "4,292"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPeer",
+        "cdi": "4,292"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIPersistentVolumeSource",
+        "cdi": "4,271"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIVolumeSource",
+        "cdi": "4,271"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleRef",
+        "cdi": "4,256"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRequirements",
+        "cdi": "4,241"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobStatus",
+        "cdi": "4,237"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusDetails",
+        "cdi": "4,227"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSecurityContext",
+        "cdi": "4,224"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSpec",
+        "cdi": "4,169"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricSource",
+        "cdi": "4,169"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricStatus",
+        "cdi": "4,169"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionVersion",
+        "cdi": "4,167"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFileVolumeSource",
+        "cdi": "4,148"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsVolumeSource",
+        "cdi": "4,148"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1KeyToPath",
+        "cdi": "4,148"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NFSVolumeSource",
+        "cdi": "4,148"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBinding",
+        "cdi": "4,145"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBinding",
+        "cdi": "4,145"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClass",
+        "cdi": "4,120"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClass",
+        "cdi": "4,094"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClass",
+        "cdi": "4,094"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRole",
+        "cdi": "4,093"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSPersistentVolumeSource",
+        "cdi": "4,073"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSVolumeSource",
+        "cdi": "4,073"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStatus",
+        "cdi": "4,051"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidationRule",
+        "cdi": "4,032"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySpreadConstraint",
+        "cdi": "4,008"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionNames",
+        "cdi": "4,007"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricSource",
+        "cdi": "3,994"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricStatus",
+        "cdi": "3,994"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ManagedFieldsEntry",
+        "cdi": "3,961"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricSpec",
+        "cdi": "3,960"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricStatus",
+        "cdi": "3,960"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParentReference",
+        "cdi": "3,960"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSystemInfo",
+        "cdi": "3,957"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerStatus",
+        "cdi": "3,935"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetStatus",
+        "cdi": "3,932"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServicePort",
+        "cdi": "3,925"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobStatus",
+        "cdi": "3,902"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestSpec",
+        "cdi": "3,901"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureDiskVolumeSource",
+        "cdi": "3,878"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1QuobyteVolumeSource",
+        "cdi": "3,878"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeMount",
+        "cdi": "3,878"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassParametersReference",
+        "cdi": "3,878"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.VersionInfo",
+        "cdi": "3,849"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeleteOptions",
+        "cdi": "3,828"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobSpec",
+        "cdi": "3,816"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AuthenticationV1TokenRequest",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContext",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaim",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequest",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinition",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalSubjectAccessReview",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReview",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReview",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReview",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReview",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachment",
+        "cdi": "3,811"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Validation",
+        "cdi": "3,770"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Validation",
+        "cdi": "3,770"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VsphereVirtualDiskVolumeSource",
+        "cdi": "3,770"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicy",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIService",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicy",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchema",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfiguration",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchema",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfiguration",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJob",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSet",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Deployment",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscaler",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Ingress",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Job",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Namespace",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Node",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolume",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaim",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Pod",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudget",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSet",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationController",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuota",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scale",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Service",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSet",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscaler",
+        "cdi": "3,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceColumnDefinition",
+        "cdi": "3,725"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapNodeConfigSource",
+        "cdi": "3,724"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyEgressRule",
+        "cdi": "3,707"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyIngressRule",
+        "cdi": "3,707"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorTerm",
+        "cdi": "3,707"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinity",
+        "cdi": "3,707"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAntiAffinity",
+        "cdi": "3,707"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointAddress",
+        "cdi": "3,703"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaCondition",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationCondition",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaCondition",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationCondition",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Toleration",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1BoundObjectReference",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SELinuxOptions",
+        "cdi": "3,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecurityContext",
+        "cdi": "3,697"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateTerminated",
+        "cdi": "3,664"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerPort",
+        "cdi": "3,663"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EndpointPort",
+        "cdi": "3,662"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverSpec",
+        "cdi": "3,639"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Secret",
+        "cdi": "3,633"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSPersistentVolumeSource",
+        "cdi": "3,632"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSVolumeSource",
+        "cdi": "3,632"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamRef",
+        "cdi": "3,631"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamRef",
+        "cdi": "3,631"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetSpec",
+        "cdi": "3,631"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerSpec",
+        "cdi": "3,622"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodCondition",
+        "cdi": "3,617"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersion",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundle",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplate",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassParametersReference",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Binding",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentCondition",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriver",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINode",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Subject",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedObjectReference",
+        "cdi": "3,616"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceSpec",
+        "cdi": "3,597"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevision",
+        "cdi": "3,596"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRSpec",
+        "cdi": "3,595"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2Subject",
+        "cdi": "3,570"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3Subject",
+        "cdi": "3,570"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionSpec",
+        "cdi": "3,566"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDR",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddress",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReview",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBinding",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReview",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBinding",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Eviction",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClass",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lease",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRange",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicy",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplate",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReview",
+        "cdi": "3,565"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobSpec",
+        "cdi": "3,531"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricTarget",
+        "cdi": "3,508"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigStatus",
+        "cdi": "3,498"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionCondition",
+        "cdi": "3,463"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimConsumerReference",
+        "cdi": "3,462"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIVolumeSource",
+        "cdi": "3,442"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexPersistentVolumeSource",
+        "cdi": "3,442"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexVolumeSource",
+        "cdi": "3,442"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderPersistentVolumeSource",
+        "cdi": "3,442"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderVolumeSource",
+        "cdi": "3,442"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceStatus",
+        "cdi": "3,441"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Probe",
+        "cdi": "3,435"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVarSource",
+        "cdi": "3,431"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeProjection",
+        "cdi": "3,431"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetStatus",
+        "cdi": "3,409"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetStatus",
+        "cdi": "3,408"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetStatus",
+        "cdi": "3,407"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerStatus",
+        "cdi": "3,407"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewStatus",
+        "cdi": "3,401"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeFile",
+        "cdi": "3,375"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAffinity",
+        "cdi": "3,374"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceStatus",
+        "cdi": "3,374"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1ServiceReference",
+        "cdi": "3,354"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1ServiceReference",
+        "cdi": "3,354"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFilePersistentVolumeSource",
+        "cdi": "3,354"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsPersistentVolumeSource",
+        "cdi": "3,354"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Taint",
+        "cdi": "3,354"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Condition",
+        "cdi": "3,309"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1OwnerReference",
+        "cdi": "3,309"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2NonResourcePolicyRule",
+        "cdi": "3,308"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3NonResourcePolicyRule",
+        "cdi": "3,308"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FCVolumeSource",
+        "cdi": "3,304"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceRule",
+        "cdi": "3,287"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WebhookConversion",
+        "cdi": "3,287"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AWSElasticBlockStoreVolumeSource",
+        "cdi": "3,247"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GCEPersistentDiskVolumeSource",
+        "cdi": "3,247"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleSpec",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostPathVolumeSource",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalVolumeSource",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectFieldSelector",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PhotonPersistentDiskVolumeSource",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaimStatus",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SeccompProfile",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TCPSocketAction",
+        "cdi": "3,246"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorLabelRequirement",
+        "cdi": "3,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStatus",
+        "cdi": "3,183"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelector",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scheduling",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeSource",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IPBlock",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ProjectedVolumeSource",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitResponse",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitResponse",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceConversion",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressServiceBackend",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaim",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricIdentifier",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AggregationRule",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1TypeChecking",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1TypeChecking",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIProjection",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointHints",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerStatus",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopeSelector",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorTerm",
+        "cdi": "3,179"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeSpec",
+        "cdi": "3,133"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressRuleValue",
+        "cdi": "3,133"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeSpec",
+        "cdi": "3,133"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelector",
+        "cdi": "3,133"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicy",
+        "cdi": "3,133"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentSpec",
+        "cdi": "3,116"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetSpec",
+        "cdi": "3,114"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetSpec",
+        "cdi": "3,093"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1AuditAnnotation",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ExpressionWarning",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchCondition",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Variable",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateSpec",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AttachedVolume",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1AuditAnnotation",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ExpressionWarning",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchCondition",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Variable",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ServiceAccountSubject",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ServiceAccountSubject",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerResizePolicy",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GroupVersionForDiscovery",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPHeader",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MatchCondition",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAddress",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimTemplate",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnPodConditionsPattern",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServerAddressByClientCIDR",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Sysctl",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeDevice",
+        "cdi": "3,092"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricSource",
+        "cdi": "3,005"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricStatus",
+        "cdi": "3,005"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricSource",
+        "cdi": "2,918"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricStatus",
+        "cdi": "2,918"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricSource",
+        "cdi": "2,918"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricStatus",
+        "cdi": "2,918"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMap",
+        "cdi": "2,602"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusCause",
+        "cdi": "2,592"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UserInfo",
+        "cdi": "2,590"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiregistrationV1ServiceReference",
+        "cdi": "2,554"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPort",
+        "cdi": "2,554"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricValueStatus",
+        "cdi": "2,554"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeItem",
+        "cdi": "2,543"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1WebhookClientConfig",
+        "cdi": "2,541"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1WebhookClientConfig",
+        "cdi": "2,541"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaSpec",
+        "cdi": "2,532"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingPolicy",
+        "cdi": "2,515"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerSpec",
+        "cdi": "2,511"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2QueuingConfiguration",
+        "cdi": "2,476"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3QueuingConfiguration",
+        "cdi": "2,476"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointConditions",
+        "cdi": "2,476"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.DiscoveryV1EndpointPort",
+        "cdi": "1,537"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ListMeta",
+        "cdi": "1,537"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeStatus",
+        "cdi": "1,537"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WindowsSecurityContextOptions",
+        "cdi": "1,537"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamKind",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceHandle",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamKind",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClaimSource",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateWaiting",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EmptyDirVolumeSource",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EventSource",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExternalDocumentation",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlockerVolumeSource",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceAttributes",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfigOption",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Preconditions",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDaemonSet",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDeployment",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretReference",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetPersistentVolumeClaimRetentionPolicy",
+        "cdi": "1,497"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextSpec",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSchedulingStatus",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostAlias",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressTLS",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewSpec",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetUpdateStrategy",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStrategy",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GRPCAction",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassSpec",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressRule",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleStatus",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetUpdateStrategy",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSource",
+        "cdi": "1,485"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Capabilities",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UncountedTerminatedPods",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressBackend",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobTemplateSpec",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lifecycle",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateSpec",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReviewSpec",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerBehavior",
+        "cdi": "1,472"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseSpec",
+        "cdi": "1,461"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.StorageV1TokenRequest",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapEnvSource",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimVolumeSource",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateStatefulSetStrategy",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretEnvSource",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceBackendPort",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestStatus",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeError",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WatchEvent",
+        "cdi": "1,459"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowDistinguisherMethod",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2GroupSubject",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationReference",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2UserSubject",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowDistinguisherMethod",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3GroupSubject",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationReference",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3UserSubject",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ForZone",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostIP",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalObjectReference",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodIP",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodOS",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodReadinessGate",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSchedulingGate",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceClaim",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReviewSpec",
+        "cdi": "1,458"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerStatus",
+        "cdi": "1,448"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitedPriorityLevelConfiguration",
+        "cdi": "1,447"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitedPriorityLevelConfiguration",
+        "cdi": "1,447"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerSpec",
+        "cdi": "1,447"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerImage",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventSeries",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresources",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PreferredSchedulingTerm",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WeightedPodAffinityTerm",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExecAction",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceSpec",
+        "cdi": "1,446"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressSpec",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReviewStatus",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReviewStatus",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceValidation",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonEndpoint",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralVolumeSource",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressStatus",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigSource",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeDaemonEndpoints",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReviewStatus",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SessionAffinityConfig",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeAffinity",
+        "cdi": "1,445"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaStatus",
+        "cdi": "1,421"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventSeries",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ExemptPriorityLevelConfiguration",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ExemptPriorityLevelConfiguration",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Overhead",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClientIPConfig",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateRunning",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleSpec",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetOrdinals",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeResources",
+        "cdi": "1,420"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerConfiguration",
+        "cdi": "1,368"
+    }
+]

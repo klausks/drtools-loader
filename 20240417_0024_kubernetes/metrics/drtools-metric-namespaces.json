@@ -1,0 +1,37 @@
+[
+    {
+        "namespace": "io.kubernetes.client.openapi.models",
+        "noc": 558,
+        "nac": 1
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.apis",
+        "noc": 58,
+        "nac": 0
+    },
+    {
+        "namespace": "io.kubernetes.client.custom",
+        "noc": 19,
+        "nac": 0
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi",
+        "noc": 15,
+        "nac": 1
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.auth",
+        "noc": 4,
+        "nac": 1
+    },
+    {
+        "namespace": "io.kubernetes.client.common",
+        "noc": 3,
+        "nac": 3
+    },
+    {
+        "namespace": "io.kubernetes.client.gson",
+        "noc": 2,
+        "nac": 0
+    }
+]

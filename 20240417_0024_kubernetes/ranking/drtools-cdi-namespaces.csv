@@ -1,0 +1,4 @@
+"namespace","severity","representativity","quality","intervention","cdi"
+"io.kubernetes.client.openapi.models","10,000","1,000","1,000","10,000","40,000"
+"io.kubernetes.client.openapi.apis","1,036","1,000","1,000","10,000","4,143"
+"io.kubernetes.client.openapi","1,000","1,000","1,000","1,000","1,000"

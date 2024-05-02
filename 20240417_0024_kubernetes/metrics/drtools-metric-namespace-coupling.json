@@ -1,0 +1,58 @@
+[
+    {
+        "namespace": "io.kubernetes.client.openapi.models",
+        "ca": 66,
+        "ce": 2,
+        "instability": 0.029411764705882353,
+        "abstractness": 0.0017921146953405018,
+        "distance": 0.9687961205987772
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.apis",
+        "ca": 0,
+        "ce": 3,
+        "instability": 1.0,
+        "abstractness": 0.0,
+        "distance": 0.0
+    },
+    {
+        "namespace": "io.kubernetes.client.custom",
+        "ca": 50,
+        "ce": 2,
+        "instability": 0.038461538461538464,
+        "abstractness": 0.0,
+        "distance": 0.9615384615384616
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi",
+        "ca": 620,
+        "ce": 3,
+        "instability": 0.004815409309791332,
+        "abstractness": 0.06666666666666667,
+        "distance": 0.9285179240235419
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.auth",
+        "ca": 1,
+        "ce": 1,
+        "instability": 0.5,
+        "abstractness": 0.25,
+        "distance": 0.25
+    },
+    {
+        "namespace": "io.kubernetes.client.common",
+        "ca": 4,
+        "ce": 1,
+        "instability": 0.2,
+        "abstractness": 1.0,
+        "distance": 0.19999999999999996
+    },
+    {
+        "namespace": "io.kubernetes.client.gson",
+        "ca": 1,
+        "ce": 1,
+        "instability": 0.5,
+        "abstractness": 0.0,
+        "distance": 0.5
+    }
+]

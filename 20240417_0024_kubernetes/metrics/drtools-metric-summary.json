@@ -1,0 +1,37 @@
+[
+    {
+        "description": "total_namespaces",
+        "value": 7,
+        "percent": 100,
+        "median": 0.0,
+        "std_dev": 0.0
+    },
+    {
+        "description": "total_types",
+        "value": 659,
+        "percent": 94,
+        "median": 15.0,
+        "std_dev": 190.22650301411628
+    },
+    {
+        "description": "total_sloc",
+        "value": 211442,
+        "percent": 320,
+        "median": 195.0,
+        "std_dev": 1087.0876635991594
+    },
+    {
+        "description": "total_methods",
+        "value": 24448,
+        "percent": 37,
+        "median": 7.0,
+        "std_dev": 12.59578013288321
+    },
+    {
+        "description": "total_cyclo",
+        "value": 43760,
+        "percent": 66,
+        "median": 0.0,
+        "std_dev": 0.0
+    }
+]

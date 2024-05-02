@@ -1,0 +1,8 @@
+"namespace","ca","ce","instability","abstractness","distance"
+"io.kubernetes.client.openapi.models",66,2,0.029411764705882353,0.0017921146953405018,0.9687961205987772
+"io.kubernetes.client.openapi.apis",0,3,1.0,0.0,0.0
+"io.kubernetes.client.custom",50,2,0.038461538461538464,0.0,0.9615384615384616
+"io.kubernetes.client.openapi",620,3,0.004815409309791332,0.06666666666666667,0.9285179240235419
+"io.kubernetes.client.openapi.auth",1,1,0.5,0.25,0.25
+"io.kubernetes.client.common",4,1,0.2,1.0,0.19999999999999996
+"io.kubernetes.client.gson",1,1,0.5,0.0,0.5

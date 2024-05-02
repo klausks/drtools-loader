@@ -1,0 +1,30 @@
+digraph {
+
+node [
+style="filled",
+ fontcolor = black,
+ color = white, fontname = Poppins];
+graph [rankdir=TB],
+
+"io.kubernetes.client.openapi.models" [shape="ellipse" label="io.kubernetes.client.openapi.models" fillcolor="lightgrey"],
+"io.kubernetes.client.openapi.apis" [shape="ellipse" label="io.kubernetes.client.openapi.apis" fillcolor="lightgrey"],
+"io.kubernetes.client.custom" [shape="ellipse" label="io.kubernetes.client.custom" fillcolor="lightgrey"],
+"io.kubernetes.client.openapi" [shape="ellipse" label="io.kubernetes.client.openapi" fillcolor="lightgrey"],
+"io.kubernetes.client.openapi.auth" [shape="ellipse" label="io.kubernetes.client.openapi.auth" fillcolor="lightgrey"],
+"io.kubernetes.client.common" [shape="ellipse" label="io.kubernetes.client.common" fillcolor="lightgrey"],
+"io.kubernetes.client.gson" [shape="ellipse" label="io.kubernetes.client.gson" fillcolor="lightgrey"],
+"io.kubernetes.client.openapi.models" -> "io.kubernetes.client.custom",
+"io.kubernetes.client.openapi.models" -> "io.kubernetes.client.openapi",
+"io.kubernetes.client.openapi.models" -> "io.kubernetes.client.openapi.models",
+"io.kubernetes.client.openapi.apis" -> "io.kubernetes.client.custom",
+"io.kubernetes.client.openapi.apis" -> "io.kubernetes.client.openapi",
+"io.kubernetes.client.openapi.apis" -> "io.kubernetes.client.openapi.models",
+"io.kubernetes.client.custom" -> "io.kubernetes.client.common",
+"io.kubernetes.client.custom" -> "io.kubernetes.client.openapi.models",
+"io.kubernetes.client.openapi" -> "io.kubernetes.client.gson",
+"io.kubernetes.client.openapi" -> "io.kubernetes.client.openapi.auth",
+"io.kubernetes.client.openapi" -> "io.kubernetes.client.openapi.models",
+"io.kubernetes.client.openapi.auth" -> "io.kubernetes.client.openapi",
+"io.kubernetes.client.common" -> "io.kubernetes.client.openapi.models",
+"io.kubernetes.client.gson" -> "io.kubernetes.client.openapi.models",
+}

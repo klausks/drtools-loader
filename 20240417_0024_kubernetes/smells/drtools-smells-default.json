@@ -1,0 +1,122 @@
+[
+    {
+        "smell": "Too Large Package/Subsystem",
+        "description": "Packages/Subsystems with a high number of classes/packages indicate that they serve more than one specific responsibility",
+        "granularity": "NAMESPACE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Understandability, Modularity"
+    },
+    {
+        "smell": "Cyclic Dependency",
+        "description": "This smell occurs when two or more packages/subsystems depend on each other",
+        "granularity": "NAMESPACE",
+        "importance": "High",
+        "intervention": "Normal",
+        "quality": "Coupling, Modularity"
+    },
+    {
+        "smell": "God Class",
+        "description": "This smell is huge, complex, and has an extremely high number of fields and methods",
+        "granularity": "TYPE",
+        "importance": "High",
+        "intervention": "Planned",
+        "quality": "Understandability, Maintainability"
+    },
+    {
+        "smell": "Broken Modularization",
+        "description": "This smell arises when data and/or methods that ideally should have been localized into a single abstraction are separated and spread across multiple abstractions",
+        "granularity": "TYPE",
+        "importance": "Low",
+        "intervention": "Planned",
+        "quality": "Modularity, Maintainability"
+    },
+    {
+        "smell": "Insufficient Modularization",
+        "description": "This smell arises when an abstraction exists that has not been completely decomposed, and a further decomposition could reduce its size, implementation complexity, or both",
+        "granularity": "TYPE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Modularity, Maintainability"
+    },
+    {
+        "smell": "Hub-like Modularization",
+        "description": "This smell arises when an abstraction has dependencies (both incoming and outgoing) with a large number of other abstractions",
+        "granularity": "TYPE",
+        "importance": "High",
+        "intervention": "Planned",
+        "quality": "Maintainability, Coupling"
+    },
+    {
+        "smell": "Cyclically-dependent Modularization",
+        "description": "This smell arises when two or more abstractions depend on each other directly or indirectly",
+        "granularity": "TYPE",
+        "importance": "High",
+        "intervention": "Normal",
+        "quality": "Modularity"
+    },
+    {
+        "smell": "Multifaceted Abstraction",
+        "description": "This smell arises when an abstraction has more than one responsibility assigned to it",
+        "granularity": "TYPE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Cohesion"
+    },
+    {
+        "smell": "Deep Hierarchy",
+        "description": "This smell arises when an inheritance hierarchy is 'excessively' deep",
+        "granularity": "TYPE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Inheritance"
+    },
+    {
+        "smell": "Wide Hierarchy",
+        "description": "This smell arises when an inheritance hierarchy is 'too' wide indicating that intermediate types may be missing",
+        "granularity": "TYPE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Inheritance"
+    },
+    {
+        "smell": "Deficient Encapsulation",
+        "description": "This smell occurs when the declared accessibility of one or more members of an abstraction is more permissive than actually required",
+        "granularity": "TYPE",
+        "importance": "Normal",
+        "intervention": "Planned",
+        "quality": "Encapsulation"
+    },
+    {
+        "smell": "Long Method",
+        "description": "This smell occurs when a method is too long to understand",
+        "granularity": "METHOD",
+        "importance": "High",
+        "intervention": "Planned",
+        "quality": "Understandability, Maintainability"
+    },
+    {
+        "smell": "Long Parameter List",
+        "description": "This smell occurs when a method accepts a long list of parameters",
+        "granularity": "METHOD",
+        "importance": "Low",
+        "intervention": "Low",
+        "quality": "Maintainability"
+    },
+    {
+        "smell": "Complex Method",
+        "description": "This smell occurs when a method has high cyclomatic complexity",
+        "granularity": "METHOD",
+        "importance": "High",
+        "intervention": "Normal",
+        "quality": "Maintainability, Understandability, Complexity"
+    },
+    {
+        "smell": "Bumpy Road",
+        "description": "This smell occurs when a method has high nested blocks",
+        "granularity": "METHOD",
+        "importance": "Critical",
+        "intervention": "Immediate",
+        "quality": "Maintainability, Understandability, Complexity"
+    }
+]

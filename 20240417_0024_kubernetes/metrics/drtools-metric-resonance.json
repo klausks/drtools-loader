@@ -1,0 +1,3335 @@
+{
+    "name": "variants",
+    "children": [
+        {
+            "name": "io.kubernetes.client.common",
+            "children": [
+                {
+                    "name": "KubernetesListObject",
+                    "sloc": 7,
+                    "wmc": 2
+                },
+                {
+                    "name": "KubernetesObject",
+                    "sloc": 5,
+                    "wmc": 1
+                },
+                {
+                    "name": "KubernetesType",
+                    "sloc": 5,
+                    "wmc": 2
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.custom",
+            "children": [
+                {
+                    "name": "BaseExponent",
+                    "sloc": 35,
+                    "wmc": 10
+                },
+                {
+                    "name": "ContainerMetrics",
+                    "sloc": 18,
+                    "wmc": 4
+                },
+                {
+                    "name": "IntOrString",
+                    "sloc": 80,
+                    "wmc": 19
+                },
+                {
+                    "name": "IntOrStringJacksonSerializer",
+                    "sloc": 21,
+                    "wmc": 4
+                },
+                {
+                    "name": "IOTrio",
+                    "sloc": 39,
+                    "wmc": 9
+                },
+                {
+                    "name": "MapUtils",
+                    "sloc": 19,
+                    "wmc": 8
+                },
+                {
+                    "name": "NodeMetrics",
+                    "sloc": 53,
+                    "wmc": 13
+                },
+                {
+                    "name": "NodeMetricsList",
+                    "sloc": 39,
+                    "wmc": 9
+                },
+                {
+                    "name": "PodMetrics",
+                    "sloc": 48,
+                    "wmc": 12
+                },
+                {
+                    "name": "PodMetricsList",
+                    "sloc": 34,
+                    "wmc": 8
+                },
+                {
+                    "name": "Quantity",
+                    "sloc": 72,
+                    "wmc": 16
+                },
+                {
+                    "name": "QuantityFormatException",
+                    "sloc": 6,
+                    "wmc": 1
+                },
+                {
+                    "name": "QuantityFormatter",
+                    "sloc": 85,
+                    "wmc": 20
+                },
+                {
+                    "name": "SuffixFormatter",
+                    "sloc": 98,
+                    "wmc": 17
+                },
+                {
+                    "name": "V1Patch",
+                    "sloc": 31,
+                    "wmc": 4
+                },
+                {
+                    "name": "IntOrStringTest",
+                    "sloc": 86,
+                    "wmc": 14
+                },
+                {
+                    "name": "MapUtilsTest",
+                    "sloc": 27,
+                    "wmc": 2
+                },
+                {
+                    "name": "QuantityFormatterTest",
+                    "sloc": 150,
+                    "wmc": 21
+                },
+                {
+                    "name": "SuffixFormatterTest",
+                    "sloc": 100,
+                    "wmc": 16
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.gson",
+            "children": [
+                {
+                    "name": "V1StatusPreProcessor",
+                    "sloc": 30,
+                    "wmc": 7
+                },
+                {
+                    "name": "V1StatusJsonDeserializerTest",
+                    "sloc": 34,
+                    "wmc": 3
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.openapi",
+            "children": [
+                {
+                    "name": "ApiCallback",
+                    "sloc": 10,
+                    "wmc": 4
+                },
+                {
+                    "name": "ApiClient",
+                    "sloc": 844,
+                    "wmc": 212
+                },
+                {
+                    "name": "ApiException",
+                    "sloc": 55,
+                    "wmc": 13
+                },
+                {
+                    "name": "ApiResponse",
+                    "sloc": 25,
+                    "wmc": 5
+                },
+                {
+                    "name": "Configuration",
+                    "sloc": 12,
+                    "wmc": 2
+                },
+                {
+                    "name": "GzipRequestInterceptor",
+                    "sloc": 57,
+                    "wmc": 5
+                },
+                {
+                    "name": "JSON",
+                    "sloc": 861,
+                    "wmc": 59
+                },
+                {
+                    "name": "Pair",
+                    "sloc": 34,
+                    "wmc": 9
+                },
+                {
+                    "name": "ProgressRequestBody",
+                    "sloc": 46,
+                    "wmc": 5
+                },
+                {
+                    "name": "ProgressResponseBody",
+                    "sloc": 45,
+                    "wmc": 6
+                },
+                {
+                    "name": "ServerConfiguration",
+                    "sloc": 31,
+                    "wmc": 8
+                },
+                {
+                    "name": "ServerVariable",
+                    "sloc": 12,
+                    "wmc": 1
+                },
+                {
+                    "name": "StringUtil",
+                    "sloc": 40,
+                    "wmc": 12
+                },
+                {
+                    "name": "JSONTest",
+                    "sloc": 68,
+                    "wmc": 7
+                },
+                {
+                    "name": "V1SecretTest",
+                    "sloc": 19,
+                    "wmc": 1
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.openapi.apis",
+            "children": [
+                {
+                    "name": "AdmissionregistrationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "AdmissionregistrationV1alpha1Api",
+                    "sloc": 2224,
+                    "wmc": 810
+                },
+                {
+                    "name": "AdmissionregistrationV1Api",
+                    "sloc": 1904,
+                    "wmc": 558
+                },
+                {
+                    "name": "AdmissionregistrationV1beta1Api",
+                    "sloc": 2224,
+                    "wmc": 810
+                },
+                {
+                    "name": "ApiextensionsApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "ApiextensionsV1Api",
+                    "sloc": 1332,
+                    "wmc": 432
+                },
+                {
+                    "name": "ApiregistrationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "ApiregistrationV1Api",
+                    "sloc": 1332,
+                    "wmc": 432
+                },
+                {
+                    "name": "ApisApi",
+                    "sloc": 117,
+                    "wmc": 27
+                },
+                {
+                    "name": "AppsApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "AppsV1Api",
+                    "sloc": 7957,
+                    "wmc": 1842
+                },
+                {
+                    "name": "AuthenticationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "AuthenticationV1alpha1Api",
+                    "sloc": 226,
+                    "wmc": 213
+                },
+                {
+                    "name": "AuthenticationV1Api",
+                    "sloc": 335,
+                    "wmc": 236
+                },
+                {
+                    "name": "AuthenticationV1beta1Api",
+                    "sloc": 226,
+                    "wmc": 213
+                },
+                {
+                    "name": "AuthorizationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "AuthorizationV1Api",
+                    "sloc": 559,
+                    "wmc": 265
+                },
+                {
+                    "name": "AutoscalingApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "AutoscalingV1Api",
+                    "sloc": 1552,
+                    "wmc": 599
+                },
+                {
+                    "name": "AutoscalingV2Api",
+                    "sloc": 1552,
+                    "wmc": 599
+                },
+                {
+                    "name": "BatchApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "BatchV1Api",
+                    "sloc": 2984,
+                    "wmc": 784
+                },
+                {
+                    "name": "CertificatesApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "CertificatesV1alpha1Api",
+                    "sloc": 1012,
+                    "wmc": 365
+                },
+                {
+                    "name": "CertificatesV1Api",
+                    "sloc": 1652,
+                    "wmc": 499
+                },
+                {
+                    "name": "CoordinationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "CoordinationV1Api",
+                    "sloc": 1214,
+                    "wmc": 408
+                },
+                {
+                    "name": "CoreApi",
+                    "sloc": 117,
+                    "wmc": 27
+                },
+                {
+                    "name": "CoreV1Api",
+                    "sloc": 24473,
+                    "wmc": 5446
+                },
+                {
+                    "name": "CustomObjectsApi",
+                    "sloc": 3416,
+                    "wmc": 847
+                },
+                {
+                    "name": "DiscoveryApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "DiscoveryV1Api",
+                    "sloc": 1214,
+                    "wmc": 408
+                },
+                {
+                    "name": "EventsApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "EventsV1Api",
+                    "sloc": 1214,
+                    "wmc": 504
+                },
+                {
+                    "name": "FlowcontrolApiserverApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "FlowcontrolApiserverV1beta2Api",
+                    "sloc": 2544,
+                    "wmc": 902
+                },
+                {
+                    "name": "FlowcontrolApiserverV1beta3Api",
+                    "sloc": 2544,
+                    "wmc": 902
+                },
+                {
+                    "name": "InternalApiserverApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "InternalApiserverV1alpha1Api",
+                    "sloc": 1332,
+                    "wmc": 432
+                },
+                {
+                    "name": "LogsApi",
+                    "sloc": 180,
+                    "wmc": 37
+                },
+                {
+                    "name": "NetworkingApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "NetworkingV1alpha1Api",
+                    "sloc": 1904,
+                    "wmc": 558
+                },
+                {
+                    "name": "NetworkingV1Api",
+                    "sloc": 3538,
+                    "wmc": 907
+                },
+                {
+                    "name": "NodeApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "NodeV1Api",
+                    "sloc": 1012,
+                    "wmc": 365
+                },
+                {
+                    "name": "OpenidApi",
+                    "sloc": 114,
+                    "wmc": 22
+                },
+                {
+                    "name": "PolicyApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "PolicyV1Api",
+                    "sloc": 1552,
+                    "wmc": 478
+                },
+                {
+                    "name": "RbacAuthorizationApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "RbacAuthorizationV1Api",
+                    "sloc": 4092,
+                    "wmc": 1030
+                },
+                {
+                    "name": "ResourceApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "ResourceV1alpha2Api",
+                    "sloc": 4970,
+                    "wmc": 1213
+                },
+                {
+                    "name": "SchedulingApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "SchedulingV1Api",
+                    "sloc": 1012,
+                    "wmc": 365
+                },
+                {
+                    "name": "StorageApi",
+                    "sloc": 117,
+                    "wmc": 122
+                },
+                {
+                    "name": "StorageV1Api",
+                    "sloc": 5102,
+                    "wmc": 1247
+                },
+                {
+                    "name": "VersionApi",
+                    "sloc": 115,
+                    "wmc": 22
+                },
+                {
+                    "name": "WellKnownApi",
+                    "sloc": 114,
+                    "wmc": 22
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.openapi.auth",
+            "children": [
+                {
+                    "name": "ApiKeyAuth",
+                    "sloc": 55,
+                    "wmc": 13
+                },
+                {
+                    "name": "Authentication",
+                    "sloc": 9,
+                    "wmc": 1
+                },
+                {
+                    "name": "HttpBasicAuth",
+                    "sloc": 34,
+                    "wmc": 9
+                },
+                {
+                    "name": "HttpBearerAuth",
+                    "sloc": 31,
+                    "wmc": 8
+                }
+            ]
+        },
+        {
+            "name": "io.kubernetes.client.openapi.models",
+            "children": [
+                {
+                    "name": "AbstractOpenApiSchema",
+                    "sloc": 73,
+                    "wmc": 19
+                },
+                {
+                    "name": "AdmissionregistrationV1ServiceReference",
+                    "sloc": 197,
+                    "wmc": 1150
+                },
+                {
+                    "name": "AdmissionregistrationV1WebhookClientConfig",
+                    "sloc": 171,
+                    "wmc": 1145
+                },
+                {
+                    "name": "ApiextensionsV1ServiceReference",
+                    "sloc": 197,
+                    "wmc": 1150
+                },
+                {
+                    "name": "ApiextensionsV1WebhookClientConfig",
+                    "sloc": 171,
+                    "wmc": 1145
+                },
+                {
+                    "name": "ApiregistrationV1ServiceReference",
+                    "sloc": 170,
+                    "wmc": 1146
+                },
+                {
+                    "name": "AuthenticationV1TokenRequest",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "CoreV1EndpointPort",
+                    "sloc": 196,
+                    "wmc": 1154
+                },
+                {
+                    "name": "CoreV1Event",
+                    "sloc": 449,
+                    "wmc": 1214
+                },
+                {
+                    "name": "CoreV1EventList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "CoreV1EventSeries",
+                    "sloc": 148,
+                    "wmc": 1137
+                },
+                {
+                    "name": "DiscoveryV1EndpointPort",
+                    "sloc": 190,
+                    "wmc": 1152
+                },
+                {
+                    "name": "EventsV1Event",
+                    "sloc": 452,
+                    "wmc": 1218
+                },
+                {
+                    "name": "EventsV1EventList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "EventsV1EventSeries",
+                    "sloc": 155,
+                    "wmc": 1139
+                },
+                {
+                    "name": "StorageV1TokenRequest",
+                    "sloc": 156,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1Affinity",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1AggregationRule",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha1AuditAnnotation",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha1ClusterCIDR",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1ClusterCIDRList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1ClusterCIDRSpec",
+                    "sloc": 197,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1ClusterTrustBundle",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1ClusterTrustBundleList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1ClusterTrustBundleSpec",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1alpha1ExpressionWarning",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha1IPAddress",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1IPAddressList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1IPAddressSpec",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1alpha1MatchCondition",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha1MatchResources",
+                    "sloc": 247,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1alpha1NamedRuleWithOperations",
+                    "sloc": 270,
+                    "wmc": 1172
+                },
+                {
+                    "name": "V1alpha1ParamKind",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1alpha1ParamRef",
+                    "sloc": 194,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1alpha1ParentReference",
+                    "sloc": 213,
+                    "wmc": 1161
+                },
+                {
+                    "name": "V1alpha1SelfSubjectReview",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1SelfSubjectReviewStatus",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1alpha1ServerStorageVersion",
+                    "sloc": 209,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1StorageVersion",
+                    "sloc": 217,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1alpha1StorageVersionCondition",
+                    "sloc": 236,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1StorageVersionList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1StorageVersionStatus",
+                    "sloc": 207,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha1TypeChecking",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicy",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicyBinding",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicyBindingList",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicyBindingSpec",
+                    "sloc": 204,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicyList",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicySpec",
+                    "sloc": 321,
+                    "wmc": 1187
+                },
+                {
+                    "name": "V1alpha1ValidatingAdmissionPolicyStatus",
+                    "sloc": 189,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1alpha1Validation",
+                    "sloc": 199,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1alpha1Variable",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha2AllocationResult",
+                    "sloc": 189,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1alpha2PodSchedulingContext",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1alpha2PodSchedulingContextList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha2PodSchedulingContextSpec",
+                    "sloc": 162,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1alpha2PodSchedulingContextStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha2ResourceClaim",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1alpha2ResourceClaimConsumerReference",
+                    "sloc": 201,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1alpha2ResourceClaimList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha2ResourceClaimParametersReference",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1alpha2ResourceClaimSchedulingStatus",
+                    "sloc": 162,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1alpha2ResourceClaimSpec",
+                    "sloc": 180,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1alpha2ResourceClaimStatus",
+                    "sloc": 209,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1alpha2ResourceClaimTemplate",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha2ResourceClaimTemplateList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha2ResourceClaimTemplateSpec",
+                    "sloc": 159,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1alpha2ResourceClass",
+                    "sloc": 242,
+                    "wmc": 1164
+                },
+                {
+                    "name": "V1alpha2ResourceClassList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1alpha2ResourceClassParametersReference",
+                    "sloc": 200,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1alpha2ResourceHandle",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1APIGroup",
+                    "sloc": 270,
+                    "wmc": 1171
+                },
+                {
+                    "name": "V1APIGroupList",
+                    "sloc": 193,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1APIResource",
+                    "sloc": 345,
+                    "wmc": 1187
+                },
+                {
+                    "name": "V1APIResourceList",
+                    "sloc": 214,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1APIService",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1APIServiceCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1APIServiceList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1APIServiceSpec",
+                    "sloc": 249,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1APIServiceStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1APIVersions",
+                    "sloc": 223,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1AttachedVolume",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1AWSElasticBlockStoreVolumeSource",
+                    "sloc": 193,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1AzureDiskVolumeSource",
+                    "sloc": 237,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1AzureFilePersistentVolumeSource",
+                    "sloc": 197,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1AzureFileVolumeSource",
+                    "sloc": 177,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1beta1AuditAnnotation",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta1ExpressionWarning",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta1MatchCondition",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta1MatchResources",
+                    "sloc": 247,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1beta1NamedRuleWithOperations",
+                    "sloc": 270,
+                    "wmc": 1172
+                },
+                {
+                    "name": "V1beta1ParamKind",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1beta1ParamRef",
+                    "sloc": 194,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1beta1SelfSubjectReview",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1beta1SelfSubjectReviewStatus",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1beta1TypeChecking",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicy",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicyBinding",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicyBindingList",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicyBindingSpec",
+                    "sloc": 204,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicyList",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicySpec",
+                    "sloc": 321,
+                    "wmc": 1187
+                },
+                {
+                    "name": "V1beta1ValidatingAdmissionPolicyStatus",
+                    "sloc": 189,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1beta1Validation",
+                    "sloc": 199,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1beta1Variable",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta2ExemptPriorityLevelConfiguration",
+                    "sloc": 147,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta2FlowDistinguisherMethod",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta2FlowSchema",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta2FlowSchemaCondition",
+                    "sloc": 211,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta2FlowSchemaList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1beta2FlowSchemaSpec",
+                    "sloc": 214,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1beta2FlowSchemaStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta2GroupSubject",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta2LimitedPriorityLevelConfiguration",
+                    "sloc": 185,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1beta2LimitResponse",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1beta2NonResourcePolicyRule",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1beta2PolicyRulesWithSubjects",
+                    "sloc": 225,
+                    "wmc": 1160
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfiguration",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfigurationCondition",
+                    "sloc": 211,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfigurationList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfigurationReference",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfigurationSpec",
+                    "sloc": 181,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1beta2PriorityLevelConfigurationStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta2QueuingConfiguration",
+                    "sloc": 164,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1beta2ResourcePolicyRule",
+                    "sloc": 254,
+                    "wmc": 1164
+                },
+                {
+                    "name": "V1beta2ServiceAccountSubject",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta2Subject",
+                    "sloc": 202,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1beta2UserSubject",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta3ExemptPriorityLevelConfiguration",
+                    "sloc": 147,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta3FlowDistinguisherMethod",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta3FlowSchema",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta3FlowSchemaCondition",
+                    "sloc": 211,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta3FlowSchemaList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1beta3FlowSchemaSpec",
+                    "sloc": 214,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1beta3FlowSchemaStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta3GroupSubject",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta3LimitedPriorityLevelConfiguration",
+                    "sloc": 185,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1beta3LimitResponse",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1beta3NonResourcePolicyRule",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1beta3PolicyRulesWithSubjects",
+                    "sloc": 225,
+                    "wmc": 1160
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfiguration",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfigurationCondition",
+                    "sloc": 211,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfigurationList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfigurationReference",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfigurationSpec",
+                    "sloc": 181,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1beta3PriorityLevelConfigurationStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta3QueuingConfiguration",
+                    "sloc": 164,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1beta3ResourcePolicyRule",
+                    "sloc": 254,
+                    "wmc": 1164
+                },
+                {
+                    "name": "V1beta3ServiceAccountSubject",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1beta3Subject",
+                    "sloc": 202,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1beta3UserSubject",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1Binding",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1BoundObjectReference",
+                    "sloc": 193,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1Capabilities",
+                    "sloc": 169,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1CephFSPersistentVolumeSource",
+                    "sloc": 248,
+                    "wmc": 1166
+                },
+                {
+                    "name": "V1CephFSVolumeSource",
+                    "sloc": 248,
+                    "wmc": 1166
+                },
+                {
+                    "name": "V1CertificateSigningRequest",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1CertificateSigningRequestCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1CertificateSigningRequestList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CertificateSigningRequestSpec",
+                    "sloc": 296,
+                    "wmc": 1174
+                },
+                {
+                    "name": "V1CertificateSigningRequestStatus",
+                    "sloc": 168,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1CinderPersistentVolumeSource",
+                    "sloc": 197,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1CinderVolumeSource",
+                    "sloc": 197,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1ClaimSource",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1ClientIPConfig",
+                    "sloc": 130,
+                    "wmc": 1134
+                },
+                {
+                    "name": "V1ClusterRole",
+                    "sloc": 233,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1ClusterRoleBinding",
+                    "sloc": 237,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1ClusterRoleBindingList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ClusterRoleList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ComponentCondition",
+                    "sloc": 200,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1ComponentStatus",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ComponentStatusList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1Condition",
+                    "sloc": 238,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1ConfigMap",
+                    "sloc": 241,
+                    "wmc": 1161
+                },
+                {
+                    "name": "V1ConfigMapEnvSource",
+                    "sloc": 150,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1ConfigMapKeySelector",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1ConfigMapList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ConfigMapNodeConfigSource",
+                    "sloc": 221,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ConfigMapProjection",
+                    "sloc": 188,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1ConfigMapVolumeSource",
+                    "sloc": 205,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1Container",
+                    "sloc": 706,
+                    "wmc": 1286
+                },
+                {
+                    "name": "V1ContainerImage",
+                    "sloc": 159,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1ContainerPort",
+                    "sloc": 213,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ContainerResizePolicy",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1ContainerState",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1ContainerStateRunning",
+                    "sloc": 131,
+                    "wmc": 1134
+                },
+                {
+                    "name": "V1ContainerStateTerminated",
+                    "sloc": 248,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1ContainerStateWaiting",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1ContainerStatus",
+                    "sloc": 343,
+                    "wmc": 1180
+                },
+                {
+                    "name": "V1ControllerRevision",
+                    "sloc": 214,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1ControllerRevisionList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CronJob",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1CronJobList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CronJobSpec",
+                    "sloc": 267,
+                    "wmc": 1164
+                },
+                {
+                    "name": "V1CronJobStatus",
+                    "sloc": 186,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1CrossVersionObjectReference",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1CSIDriver",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1CSIDriverList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CSIDriverSpec",
+                    "sloc": 283,
+                    "wmc": 1169
+                },
+                {
+                    "name": "V1CSINode",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1CSINodeDriver",
+                    "sloc": 210,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1CSINodeList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CSINodeSpec",
+                    "sloc": 153,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1CSIPersistentVolumeSource",
+                    "sloc": 324,
+                    "wmc": 1180
+                },
+                {
+                    "name": "V1CSIStorageCapacity",
+                    "sloc": 262,
+                    "wmc": 1171
+                },
+                {
+                    "name": "V1CSIStorageCapacityList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CSIVolumeSource",
+                    "sloc": 223,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1CustomResourceColumnDefinition",
+                    "sloc": 238,
+                    "wmc": 1160
+                },
+                {
+                    "name": "V1CustomResourceConversion",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1CustomResourceDefinition",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1CustomResourceDefinitionCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1CustomResourceDefinitionList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1CustomResourceDefinitionNames",
+                    "sloc": 256,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1CustomResourceDefinitionSpec",
+                    "sloc": 253,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1CustomResourceDefinitionStatus",
+                    "sloc": 199,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1CustomResourceDefinitionVersion",
+                    "sloc": 292,
+                    "wmc": 1172
+                },
+                {
+                    "name": "V1CustomResourceSubresources",
+                    "sloc": 151,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V1CustomResourceSubresourceScale",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1CustomResourceValidation",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1DaemonEndpoint",
+                    "sloc": 136,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1DaemonSet",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1DaemonSetCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1DaemonSetList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1DaemonSetSpec",
+                    "sloc": 213,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1DaemonSetStatus",
+                    "sloc": 313,
+                    "wmc": 1170
+                },
+                {
+                    "name": "V1DaemonSetUpdateStrategy",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1DeleteOptions",
+                    "sloc": 257,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1Deployment",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1DeploymentCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1DeploymentList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1DeploymentSpec",
+                    "sloc": 264,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1DeploymentStatus",
+                    "sloc": 270,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1DeploymentStrategy",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1DownwardAPIProjection",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1DownwardAPIVolumeFile",
+                    "sloc": 198,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1DownwardAPIVolumeSource",
+                    "sloc": 168,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1EmptyDirVolumeSource",
+                    "sloc": 154,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1Endpoint",
+                    "sloc": 299,
+                    "wmc": 1178
+                },
+                {
+                    "name": "V1EndpointAddress",
+                    "sloc": 200,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1EndpointConditions",
+                    "sloc": 164,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1EndpointHints",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1Endpoints",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1EndpointSlice",
+                    "sloc": 271,
+                    "wmc": 1171
+                },
+                {
+                    "name": "V1EndpointSliceList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1EndpointsList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1EndpointSubset",
+                    "sloc": 222,
+                    "wmc": 1161
+                },
+                {
+                    "name": "V1EnvFromSource",
+                    "sloc": 175,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1EnvVar",
+                    "sloc": 180,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1EnvVarSource",
+                    "sloc": 197,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1EphemeralContainer",
+                    "sloc": 726,
+                    "wmc": 1292
+                },
+                {
+                    "name": "V1EphemeralVolumeSource",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1EventSource",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1Eviction",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1ExecAction",
+                    "sloc": 142,
+                    "wmc": 1138
+                },
+                {
+                    "name": "V1ExternalDocumentation",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1FCVolumeSource",
+                    "sloc": 223,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1FlexPersistentVolumeSource",
+                    "sloc": 223,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1FlexVolumeSource",
+                    "sloc": 223,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1FlockerVolumeSource",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1ForZone",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1GCEPersistentDiskVolumeSource",
+                    "sloc": 193,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1GitRepoVolumeSource",
+                    "sloc": 179,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1GlusterfsPersistentVolumeSource",
+                    "sloc": 197,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1GlusterfsVolumeSource",
+                    "sloc": 177,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1GroupVersionForDiscovery",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1GRPCAction",
+                    "sloc": 156,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1HorizontalPodAutoscaler",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1HorizontalPodAutoscalerList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1HorizontalPodAutoscalerSpec",
+                    "sloc": 190,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1HorizontalPodAutoscalerStatus",
+                    "sloc": 206,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1HostAlias",
+                    "sloc": 162,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1HostIP",
+                    "sloc": 133,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1HostPathVolumeSource",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1HTTPGetAction",
+                    "sloc": 238,
+                    "wmc": 1165
+                },
+                {
+                    "name": "V1HTTPHeader",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1HTTPIngressPath",
+                    "sloc": 179,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1HTTPIngressRuleValue",
+                    "sloc": 153,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1Ingress",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1IngressBackend",
+                    "sloc": 155,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1IngressClass",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1IngressClassList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1IngressClassParametersReference",
+                    "sloc": 220,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1IngressClassSpec",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1IngressList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1IngressLoadBalancerIngress",
+                    "sloc": 191,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1IngressLoadBalancerStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1IngressPortStatus",
+                    "sloc": 177,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1IngressRule",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1IngressServiceBackend",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1IngressSpec",
+                    "sloc": 228,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1IngressStatus",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1IngressTLS",
+                    "sloc": 162,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1IPBlock",
+                    "sloc": 168,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1ISCSIPersistentVolumeSource",
+                    "sloc": 339,
+                    "wmc": 1183
+                },
+                {
+                    "name": "V1ISCSIVolumeSource",
+                    "sloc": 339,
+                    "wmc": 1183
+                },
+                {
+                    "name": "V1Job",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1JobCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1JobList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1JobSpec",
+                    "sloc": 373,
+                    "wmc": 1185
+                },
+                {
+                    "name": "V1JobStatus",
+                    "sloc": 332,
+                    "wmc": 1179
+                },
+                {
+                    "name": "V1JobTemplateSpec",
+                    "sloc": 155,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1JSONSchemaProps",
+                    "sloc": 1033,
+                    "wmc": 1345
+                },
+                {
+                    "name": "V1KeyToPath",
+                    "sloc": 177,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1LabelSelector",
+                    "sloc": 177,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1LabelSelectorRequirement",
+                    "sloc": 189,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1Lease",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1LeaseList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1LeaseSpec",
+                    "sloc": 202,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1Lifecycle",
+                    "sloc": 154,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1LifecycleHandler",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1LimitRange",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1LimitRangeItem",
+                    "sloc": 262,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1LimitRangeList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1LimitRangeSpec",
+                    "sloc": 153,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1ListMeta",
+                    "sloc": 189,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1LoadBalancerIngress",
+                    "sloc": 191,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1LoadBalancerStatus",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1LocalObjectReference",
+                    "sloc": 133,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1LocalSubjectAccessReview",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1LocalVolumeSource",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1ManagedFieldsEntry",
+                    "sloc": 248,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1MatchCondition",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1MutatingWebhook",
+                    "sloc": 402,
+                    "wmc": 1202
+                },
+                {
+                    "name": "V1MutatingWebhookConfiguration",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1MutatingWebhookConfigurationList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1Namespace",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1NamespaceCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1NamespaceList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1NamespaceSpec",
+                    "sloc": 142,
+                    "wmc": 1138
+                },
+                {
+                    "name": "V1NamespaceStatus",
+                    "sloc": 171,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1NetworkPolicy",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1NetworkPolicyEgressRule",
+                    "sloc": 187,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1NetworkPolicyIngressRule",
+                    "sloc": 187,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1NetworkPolicyList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1NetworkPolicyPeer",
+                    "sloc": 175,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1NetworkPolicyPort",
+                    "sloc": 171,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1NetworkPolicySpec",
+                    "sloc": 239,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1NFSVolumeSource",
+                    "sloc": 177,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1Node",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1NodeAddress",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1NodeAffinity",
+                    "sloc": 172,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1NodeCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1NodeConfigSource",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1NodeConfigStatus",
+                    "sloc": 194,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1NodeDaemonEndpoints",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1NodeList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1NodeSelector",
+                    "sloc": 153,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1NodeSelectorRequirement",
+                    "sloc": 189,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1NodeSelectorTerm",
+                    "sloc": 186,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1NodeSpec",
+                    "sloc": 276,
+                    "wmc": 1174
+                },
+                {
+                    "name": "V1NodeStatus",
+                    "sloc": 420,
+                    "wmc": 1209
+                },
+                {
+                    "name": "V1NodeSystemInfo",
+                    "sloc": 328,
+                    "wmc": 1173
+                },
+                {
+                    "name": "V1NonResourceAttributes",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1NonResourceRule",
+                    "sloc": 177,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1ObjectFieldSelector",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1ObjectMeta",
+                    "sloc": 453,
+                    "wmc": 1216
+                },
+                {
+                    "name": "V1ObjectReference",
+                    "sloc": 253,
+                    "wmc": 1173
+                },
+                {
+                    "name": "V1Overhead",
+                    "sloc": 140,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1OwnerReference",
+                    "sloc": 236,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1PersistentVolume",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1PersistentVolumeClaim",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1PersistentVolumeClaimCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1PersistentVolumeClaimList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1PersistentVolumeClaimSpec",
+                    "sloc": 286,
+                    "wmc": 1176
+                },
+                {
+                    "name": "V1PersistentVolumeClaimStatus",
+                    "sloc": 273,
+                    "wmc": 1169
+                },
+                {
+                    "name": "V1PersistentVolumeClaimTemplate",
+                    "sloc": 159,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1PersistentVolumeClaimVolumeSource",
+                    "sloc": 156,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1PersistentVolumeList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1PersistentVolumeSpec",
+                    "sloc": 760,
+                    "wmc": 1288
+                },
+                {
+                    "name": "V1PersistentVolumeStatus",
+                    "sloc": 191,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1PhotonPersistentDiskVolumeSource",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1Pod",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1PodAffinity",
+                    "sloc": 187,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1PodAffinityTerm",
+                    "sloc": 209,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1PodAntiAffinity",
+                    "sloc": 187,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1PodCondition",
+                    "sloc": 235,
+                    "wmc": 1159
+                },
+                {
+                    "name": "V1PodDisruptionBudget",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1PodDisruptionBudgetList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1PodDisruptionBudgetSpec",
+                    "sloc": 195,
+                    "wmc": 1154
+                },
+                {
+                    "name": "V1PodDisruptionBudgetStatus",
+                    "sloc": 272,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1PodDNSConfig",
+                    "sloc": 205,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1PodDNSConfigOption",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1PodFailurePolicy",
+                    "sloc": 153,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1PodFailurePolicyOnExitCodesRequirement",
+                    "sloc": 191,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1PodFailurePolicyOnPodConditionsPattern",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1PodFailurePolicyRule",
+                    "sloc": 198,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1PodIP",
+                    "sloc": 133,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1PodList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1PodOS",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1PodReadinessGate",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1PodResourceClaim",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1PodResourceClaimStatus",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1PodSchedulingGate",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1PodSecurityContext",
+                    "sloc": 329,
+                    "wmc": 1181
+                },
+                {
+                    "name": "V1PodSpec",
+                    "sloc": 1054,
+                    "wmc": 1369
+                },
+                {
+                    "name": "V1PodStatus",
+                    "sloc": 543,
+                    "wmc": 1252
+                },
+                {
+                    "name": "V1PodTemplate",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1PodTemplateList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1PodTemplateSpec",
+                    "sloc": 155,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1PolicyRule",
+                    "sloc": 258,
+                    "wmc": 1168
+                },
+                {
+                    "name": "V1PortStatus",
+                    "sloc": 177,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1PortworxVolumeSource",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1Preconditions",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1PreferredSchedulingTerm",
+                    "sloc": 156,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V1PriorityClass",
+                    "sloc": 254,
+                    "wmc": 1168
+                },
+                {
+                    "name": "V1PriorityClassList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1Probe",
+                    "sloc": 299,
+                    "wmc": 1169
+                },
+                {
+                    "name": "V1ProjectedVolumeSource",
+                    "sloc": 168,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1QuobyteVolumeSource",
+                    "sloc": 237,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1RBDPersistentVolumeSource",
+                    "sloc": 289,
+                    "wmc": 1176
+                },
+                {
+                    "name": "V1RBDVolumeSource",
+                    "sloc": 289,
+                    "wmc": 1176
+                },
+                {
+                    "name": "V1ReplicaSet",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ReplicaSetCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1ReplicaSetList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ReplicaSetSpec",
+                    "sloc": 193,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1ReplicaSetStatus",
+                    "sloc": 242,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ReplicationController",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ReplicationControllerCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1ReplicationControllerList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ReplicationControllerSpec",
+                    "sloc": 194,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1ReplicationControllerStatus",
+                    "sloc": 242,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ResourceAttributes",
+                    "sloc": 253,
+                    "wmc": 1173
+                },
+                {
+                    "name": "V1ResourceClaim",
+                    "sloc": 139,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1ResourceFieldSelector",
+                    "sloc": 180,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1ResourceQuota",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ResourceQuotaList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ResourceQuotaSpec",
+                    "sloc": 190,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1ResourceQuotaStatus",
+                    "sloc": 164,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1ResourceRequirements",
+                    "sloc": 202,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1ResourceRule",
+                    "sloc": 231,
+                    "wmc": 1161
+                },
+                {
+                    "name": "V1Role",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1RoleBinding",
+                    "sloc": 237,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1RoleBindingList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1RoleList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1RoleRef",
+                    "sloc": 181,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1RollingUpdateDaemonSet",
+                    "sloc": 154,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1RollingUpdateDeployment",
+                    "sloc": 154,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1RollingUpdateStatefulSetStrategy",
+                    "sloc": 151,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1RuleWithOperations",
+                    "sloc": 243,
+                    "wmc": 1165
+                },
+                {
+                    "name": "V1RuntimeClass",
+                    "sloc": 242,
+                    "wmc": 1164
+                },
+                {
+                    "name": "V1RuntimeClassList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1Scale",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ScaleIOPersistentVolumeSource",
+                    "sloc": 314,
+                    "wmc": 1180
+                },
+                {
+                    "name": "V1ScaleIOVolumeSource",
+                    "sloc": 314,
+                    "wmc": 1180
+                },
+                {
+                    "name": "V1ScaleSpec",
+                    "sloc": 130,
+                    "wmc": 1134
+                },
+                {
+                    "name": "V1ScaleStatus",
+                    "sloc": 156,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1Scheduling",
+                    "sloc": 177,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1ScopedResourceSelectorRequirement",
+                    "sloc": 189,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1ScopeSelector",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1SeccompProfile",
+                    "sloc": 159,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1Secret",
+                    "sloc": 262,
+                    "wmc": 1167
+                },
+                {
+                    "name": "V1SecretEnvSource",
+                    "sloc": 150,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1SecretKeySelector",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1SecretList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1SecretProjection",
+                    "sloc": 188,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1SecretReference",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1SecretVolumeSource",
+                    "sloc": 205,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1SecurityContext",
+                    "sloc": 319,
+                    "wmc": 1175
+                },
+                {
+                    "name": "V1SelfSubjectAccessReview",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1SelfSubjectAccessReviewSpec",
+                    "sloc": 155,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1SelfSubjectReview",
+                    "sloc": 195,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1SelfSubjectReviewStatus",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1SelfSubjectRulesReview",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1SelfSubjectRulesReviewSpec",
+                    "sloc": 133,
+                    "wmc": 1137
+                },
+                {
+                    "name": "V1SELinuxOptions",
+                    "sloc": 193,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1ServerAddressByClientCIDR",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1Service",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ServiceAccount",
+                    "sloc": 265,
+                    "wmc": 1171
+                },
+                {
+                    "name": "V1ServiceAccountList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ServiceAccountTokenProjection",
+                    "sloc": 176,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1ServiceBackendPort",
+                    "sloc": 150,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1ServiceList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ServicePort",
+                    "sloc": 234,
+                    "wmc": 1163
+                },
+                {
+                    "name": "V1ServiceSpec",
+                    "sloc": 537,
+                    "wmc": 1242
+                },
+                {
+                    "name": "V1ServiceStatus",
+                    "sloc": 172,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V1SessionAffinityConfig",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1StatefulSet",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1StatefulSetCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1StatefulSetList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1StatefulSetOrdinals",
+                    "sloc": 130,
+                    "wmc": 1134
+                },
+                {
+                    "name": "V1StatefulSetPersistentVolumeClaimRetentionPolicy",
+                    "sloc": 153,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1StatefulSetSpec",
+                    "sloc": 351,
+                    "wmc": 1183
+                },
+                {
+                    "name": "V1StatefulSetStatus",
+                    "sloc": 316,
+                    "wmc": 1176
+                },
+                {
+                    "name": "V1StatefulSetUpdateStrategy",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1Status",
+                    "sloc": 271,
+                    "wmc": 1174
+                },
+                {
+                    "name": "V1StatusCause",
+                    "sloc": 173,
+                    "wmc": 1149
+                },
+                {
+                    "name": "V1StatusDetails",
+                    "sloc": 248,
+                    "wmc": 1168
+                },
+                {
+                    "name": "V1StorageClass",
+                    "sloc": 348,
+                    "wmc": 1191
+                },
+                {
+                    "name": "V1StorageClassList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1StorageOSPersistentVolumeSource",
+                    "sloc": 211,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1StorageOSVolumeSource",
+                    "sloc": 211,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1Subject",
+                    "sloc": 200,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1SubjectAccessReview",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1SubjectAccessReviewSpec",
+                    "sloc": 250,
+                    "wmc": 1165
+                },
+                {
+                    "name": "V1SubjectAccessReviewStatus",
+                    "sloc": 193,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1SubjectRulesReviewStatus",
+                    "sloc": 224,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V1Sysctl",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1Taint",
+                    "sloc": 198,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V1TCPSocketAction",
+                    "sloc": 160,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V1TokenRequestSpec",
+                    "sloc": 188,
+                    "wmc": 1148
+                },
+                {
+                    "name": "V1TokenRequestStatus",
+                    "sloc": 158,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1TokenReview",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1TokenReviewSpec",
+                    "sloc": 162,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1TokenReviewStatus",
+                    "sloc": 200,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V1Toleration",
+                    "sloc": 210,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1TopologySelectorLabelRequirement",
+                    "sloc": 171,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1TopologySelectorTerm",
+                    "sloc": 151,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1TopologySpreadConstraint",
+                    "sloc": 285,
+                    "wmc": 1171
+                },
+                {
+                    "name": "V1TypedLocalObjectReference",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V1TypedObjectReference",
+                    "sloc": 200,
+                    "wmc": 1153
+                },
+                {
+                    "name": "V1UncountedTerminatedPods",
+                    "sloc": 169,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1UserInfo",
+                    "sloc": 208,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1ValidatingWebhook",
+                    "sloc": 382,
+                    "wmc": 1196
+                },
+                {
+                    "name": "V1ValidatingWebhookConfiguration",
+                    "sloc": 212,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1ValidatingWebhookConfigurationList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1ValidationRule",
+                    "sloc": 219,
+                    "wmc": 1161
+                },
+                {
+                    "name": "V1Volume",
+                    "sloc": 748,
+                    "wmc": 1282
+                },
+                {
+                    "name": "V1VolumeAttachment",
+                    "sloc": 220,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V1VolumeAttachmentList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V1VolumeAttachmentSource",
+                    "sloc": 154,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V1VolumeAttachmentSpec",
+                    "sloc": 180,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V1VolumeAttachmentStatus",
+                    "sloc": 203,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1VolumeDevice",
+                    "sloc": 160,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V1VolumeError",
+                    "sloc": 151,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1VolumeMount",
+                    "sloc": 237,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V1VolumeNodeAffinity",
+                    "sloc": 134,
+                    "wmc": 1136
+                },
+                {
+                    "name": "V1VolumeNodeResources",
+                    "sloc": 130,
+                    "wmc": 1134
+                },
+                {
+                    "name": "V1VolumeProjection",
+                    "sloc": 197,
+                    "wmc": 1151
+                },
+                {
+                    "name": "V1VsphereVirtualDiskVolumeSource",
+                    "sloc": 199,
+                    "wmc": 1155
+                },
+                {
+                    "name": "V1WatchEvent",
+                    "sloc": 157,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V1WebhookConversion",
+                    "sloc": 171,
+                    "wmc": 1145
+                },
+                {
+                    "name": "V1WeightedPodAffinityTerm",
+                    "sloc": 156,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V1WindowsSecurityContextOptions",
+                    "sloc": 190,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V2ContainerResourceMetricSource",
+                    "sloc": 180,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V2ContainerResourceMetricStatus",
+                    "sloc": 180,
+                    "wmc": 1144
+                },
+                {
+                    "name": "V2CrossVersionObjectReference",
+                    "sloc": 180,
+                    "wmc": 1147
+                },
+                {
+                    "name": "V2ExternalMetricSource",
+                    "sloc": 158,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V2ExternalMetricStatus",
+                    "sloc": 158,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V2HorizontalPodAutoscaler",
+                    "sloc": 216,
+                    "wmc": 1158
+                },
+                {
+                    "name": "V2HorizontalPodAutoscalerBehavior",
+                    "sloc": 154,
+                    "wmc": 1141
+                },
+                {
+                    "name": "V2HorizontalPodAutoscalerCondition",
+                    "sloc": 218,
+                    "wmc": 1156
+                },
+                {
+                    "name": "V2HorizontalPodAutoscalerList",
+                    "sloc": 214,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V2HorizontalPodAutoscalerSpec",
+                    "sloc": 232,
+                    "wmc": 1157
+                },
+                {
+                    "name": "V2HorizontalPodAutoscalerStatus",
+                    "sloc": 262,
+                    "wmc": 1165
+                },
+                {
+                    "name": "V2HPAScalingPolicy",
+                    "sloc": 175,
+                    "wmc": 1143
+                },
+                {
+                    "name": "V2HPAScalingRules",
+                    "sloc": 188,
+                    "wmc": 1150
+                },
+                {
+                    "name": "V2MetricIdentifier",
+                    "sloc": 160,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V2MetricSpec",
+                    "sloc": 244,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V2MetricStatus",
+                    "sloc": 244,
+                    "wmc": 1162
+                },
+                {
+                    "name": "V2MetricTarget",
+                    "sloc": 197,
+                    "wmc": 1152
+                },
+                {
+                    "name": "V2MetricValueStatus",
+                    "sloc": 171,
+                    "wmc": 1146
+                },
+                {
+                    "name": "V2ObjectMetricSource",
+                    "sloc": 178,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V2ObjectMetricStatus",
+                    "sloc": 178,
+                    "wmc": 1142
+                },
+                {
+                    "name": "V2PodsMetricSource",
+                    "sloc": 158,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V2PodsMetricStatus",
+                    "sloc": 158,
+                    "wmc": 1139
+                },
+                {
+                    "name": "V2ResourceMetricSource",
+                    "sloc": 159,
+                    "wmc": 1140
+                },
+                {
+                    "name": "V2ResourceMetricStatus",
+                    "sloc": 159,
+                    "wmc": 1140
+                },
+                {
+                    "name": "VersionInfo",
+                    "sloc": 307,
+                    "wmc": 1169
+                }
+            ]
+        }
+    ]
+}

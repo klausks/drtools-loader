@@ -1,0 +1,205 @@
+[
+    {
+        "acronym": "SMALL",
+        "name": "Small Project",
+        "description": "small project with < 50 KLOC or 200 < classes",
+        "min": 0.0,
+        "max": 200.0
+    },
+    {
+        "acronym": "MEDIUM",
+        "name": "Medium Project",
+        "description": "medium project with (50 KLOC <= project <= 250 KLOC) or (200 <= classes <= 1000)",
+        "min": 200.0,
+        "max": 1000.0
+    },
+    {
+        "acronym": "LARGE",
+        "name": "Large Project",
+        "description": "large project with > 250 KLOC or > 1000 classes",
+        "min": 1000.0,
+        "max": 1.7976931348623157E308
+    },
+    {
+        "acronym": "NOC",
+        "name": "Number of Types/Classes",
+        "description": "Good: <= 11,0; Regular: between 11,0 and 28,0; Bad: > 28,0",
+        "min": 11.0,
+        "max": 28.0
+    },
+    {
+        "acronym": "NAC",
+        "name": "Number of Abstract Types/Classes",
+        "description": "without references",
+        "min": 0.0,
+        "max": 0.0
+    },
+    {
+        "acronym": "SLOC",
+        "name": "Type Lines of Code",
+        "description": "Bad: > 500,0",
+        "min": 0.0,
+        "max": 500.0
+    },
+    {
+        "acronym": "NOM",
+        "name": "Number of Methods",
+        "description": "Good: <= 6,0; Regular: between 6,0 and 14,0; Bad: > 14,0",
+        "min": 6.0,
+        "max": 14.0
+    },
+    {
+        "acronym": "WMC",
+        "name": "Weighted Methods per Class",
+        "description": "Good: <= 20,0; Regular: between 20,0 and 100,0; Bad: > 100,0",
+        "min": 20.0,
+        "max": 100.0
+    },
+    {
+        "acronym": "DEP",
+        "name": "Number of external types dependencies",
+        "description": "Bad: > 20,0",
+        "min": 0.0,
+        "max": 20.0
+    },
+    {
+        "acronym": "I-DEP",
+        "name": "Number of internal types dependencies",
+        "description": "Bad: > 15,0",
+        "min": 0.0,
+        "max": 15.0
+    },
+    {
+        "acronym": "FAN-IN",
+        "name": "Number of other types that depend on a given type",
+        "description": "Bad: > 10,0",
+        "min": 0.0,
+        "max": 10.0
+    },
+    {
+        "acronym": "FAN-OUT",
+        "name": "Number of other types referenced by a type",
+        "description": "Bad: > 15,0",
+        "min": 0.0,
+        "max": 15.0
+    },
+    {
+        "acronym": "NPM",
+        "name": "Number of Public Methods",
+        "description": "Good: <= 10,0; Regular: between 10,0 and 20,0; Bad: > 20,0",
+        "min": 10.0,
+        "max": 20.0
+    },
+    {
+        "acronym": "NOA",
+        "name": "Number of Attributes/Fields",
+        "description": "Good: <= 3,0; Regular: between 3,0 and 8,0; Bad: > 8,0",
+        "min": 3.0,
+        "max": 8.0
+    },
+    {
+        "acronym": "LCOM3",
+        "name": "Lack of Cohesion in Methods",
+        "description": "Good: = 0,0; Regular: between 0,0 and 0,8; Bad: > 0,8",
+        "min": 0.0,
+        "max": 0.8
+    },
+    {
+        "acronym": "DIT",
+        "name": "Deep in Inheritance Tree",
+        "description": "Good: <= 2,0; Regular: between 2,0 and 4,0; Bad: > 4,0",
+        "min": 2.0,
+        "max": 4.0
+    },
+    {
+        "acronym": "CHILD",
+        "name": "Number of Children",
+        "description": "Bad: > 8,0",
+        "min": 0.0,
+        "max": 8.0
+    },
+    {
+        "acronym": "NPA",
+        "name": "Number of Public Attributes/Fields",
+        "description": "Bad: > 1,0",
+        "min": 0.0,
+        "max": 1.0
+    },
+    {
+        "acronym": "CDEP",
+        "name": "Number of cyclic dependencies (namespaces/types)",
+        "description": "Bad: >= 1,0",
+        "min": 0.0,
+        "max": 1.0
+    },
+    {
+        "acronym": "MLOC",
+        "name": "Method Lines of Code",
+        "description": "Good: <= 10,0; Regular: between 10,0 and 30,0; Bad: > 30,0",
+        "min": 10.0,
+        "max": 30.0
+    },
+    {
+        "acronym": "CYCLO",
+        "name": "Cyclomatic Complexity",
+        "description": "Good: <= 2,0; Regular: between 2,0 and 4,0; Bad: > 4,0",
+        "min": 2.0,
+        "max": 4.0
+    },
+    {
+        "acronym": "CALLS",
+        "name": "Number of Invocations",
+        "description": "Bad: > 5,0",
+        "min": 0.0,
+        "max": 5.0
+    },
+    {
+        "acronym": "NBD",
+        "name": "Nested Block Depth",
+        "description": "Good: <= 1,0; Regular: between 1,0 and 3,0; Bad: > 3,0",
+        "min": 1.0,
+        "max": 3.0
+    },
+    {
+        "acronym": "PARAM",
+        "name": "Number of Parameters",
+        "description": "Good: <= 2,0; Regular: between 2,0 and 4,0; Bad: > 4,0",
+        "min": 2.0,
+        "max": 4.0
+    },
+    {
+        "acronym": "CA",
+        "name": "Afferent Coupling",
+        "description": "Good: <= 7,0; Regular: between 7,0 and 39,0; Bad: > 39,0",
+        "min": 7.0,
+        "max": 39.0
+    },
+    {
+        "acronym": "CE",
+        "name": "Efferent Coupling",
+        "description": "Good: <= 6,0; Regular: between 6,0 and 16,0; Bad: > 16,0",
+        "min": 6.0,
+        "max": 16.0
+    },
+    {
+        "acronym": "I",
+        "name": "Package Instability",
+        "description": "range between 0=Maximally stability and 1=Maximally instability",
+        "min": 0.0,
+        "max": 1.0
+    },
+    {
+        "acronym": "A",
+        "name": "Abstractness Degree",
+        "description": "range between 0=Minimally abstractness and 1=Maximally abstractness",
+        "min": 0.0,
+        "max": 1.0
+    },
+    {
+        "acronym": "D",
+        "name": "Normalized Distance",
+        "description": "range between 0=exactly located in the main sequence and 1=far from the main sequence",
+        "min": 0.0,
+        "max": 1.0
+    }
+]

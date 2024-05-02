@@ -1,0 +1,104 @@
+{
+    "nodes": [
+        {
+            "name": "io.kubernetes.client.openapi.models",
+            "label": "io.kubernetes.client.openapi.models",
+            "id": "io.kubernetes.client.openapi.models",
+            "size": 558
+        },
+        {
+            "name": "io.kubernetes.client.openapi.apis",
+            "label": "io.kubernetes.client.openapi.apis",
+            "id": "io.kubernetes.client.openapi.apis",
+            "size": 58
+        },
+        {
+            "name": "io.kubernetes.client.custom",
+            "label": "io.kubernetes.client.custom",
+            "id": "io.kubernetes.client.custom",
+            "size": 19
+        },
+        {
+            "name": "io.kubernetes.client.openapi",
+            "label": "io.kubernetes.client.openapi",
+            "id": "io.kubernetes.client.openapi",
+            "size": 15
+        },
+        {
+            "name": "io.kubernetes.client.openapi.auth",
+            "label": "io.kubernetes.client.openapi.auth",
+            "id": "io.kubernetes.client.openapi.auth",
+            "size": 4
+        },
+        {
+            "name": "io.kubernetes.client.common",
+            "label": "io.kubernetes.client.common",
+            "id": "io.kubernetes.client.common",
+            "size": 3
+        },
+        {
+            "name": "io.kubernetes.client.gson",
+            "label": "io.kubernetes.client.gson",
+            "id": "io.kubernetes.client.gson",
+            "size": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "io.kubernetes.client.openapi.models",
+            "target": "io.kubernetes.client.custom"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.models",
+            "target": "io.kubernetes.client.openapi"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.models",
+            "target": "io.kubernetes.client.openapi.models"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.apis",
+            "target": "io.kubernetes.client.custom"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.apis",
+            "target": "io.kubernetes.client.openapi"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.apis",
+            "target": "io.kubernetes.client.openapi.models"
+        },
+        {
+            "source": "io.kubernetes.client.custom",
+            "target": "io.kubernetes.client.common"
+        },
+        {
+            "source": "io.kubernetes.client.custom",
+            "target": "io.kubernetes.client.openapi.models"
+        },
+        {
+            "source": "io.kubernetes.client.openapi",
+            "target": "io.kubernetes.client.gson"
+        },
+        {
+            "source": "io.kubernetes.client.openapi",
+            "target": "io.kubernetes.client.openapi.auth"
+        },
+        {
+            "source": "io.kubernetes.client.openapi",
+            "target": "io.kubernetes.client.openapi.models"
+        },
+        {
+            "source": "io.kubernetes.client.openapi.auth",
+            "target": "io.kubernetes.client.openapi"
+        },
+        {
+            "source": "io.kubernetes.client.common",
+            "target": "io.kubernetes.client.openapi.models"
+        },
+        {
+            "source": "io.kubernetes.client.gson",
+            "target": "io.kubernetes.client.openapi.models"
+        }
+    ]
+}

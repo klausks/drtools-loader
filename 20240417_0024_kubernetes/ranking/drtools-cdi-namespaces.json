@@ -1,0 +1,26 @@
+[
+    {
+        "namespace": "io.kubernetes.client.openapi.models",
+        "severity": "10,000",
+        "representativity": "1,000",
+        "quality": "1,000",
+        "intervention": "10,000",
+        "cdi": "40,000"
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.apis",
+        "severity": "1,036",
+        "representativity": "1,000",
+        "quality": "1,000",
+        "intervention": "10,000",
+        "cdi": "4,143"
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi",
+        "severity": "1,000",
+        "representativity": "1,000",
+        "quality": "1,000",
+        "intervention": "1,000",
+        "cdi": "1,000"
+    }
+]

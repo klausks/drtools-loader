@@ -1,0 +1,82 @@
+[
+    {
+        "granularity": "NAMESPACE",
+        "smells": [
+            {
+                "smell": "Too Large Package/Subsystem",
+                "instances": 2,
+                "perc_instances": "66,67%"
+            },
+            {
+                "smell": "Cyclic Dependency",
+                "instances": 1,
+                "perc_instances": "33,33%"
+            }
+        ]
+    },
+    {
+        "granularity": "TYPE",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "instances": 620,
+                "perc_instances": "99,68%"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "instances": 200,
+                "perc_instances": "32,15%"
+            },
+            {
+                "smell": "God Class",
+                "instances": 37,
+                "perc_instances": "5,95%"
+            },
+            {
+                "smell": "Cyclically-dependent Modularization",
+                "instances": 2,
+                "perc_instances": "0,32%"
+            },
+            {
+                "smell": "Deficient Encapsulation",
+                "instances": 2,
+                "perc_instances": "0,32%"
+            },
+            {
+                "smell": "Hub-like Modularization",
+                "instances": 1,
+                "perc_instances": "0,16%"
+            },
+            {
+                "smell": "Deep Hierarchy",
+                "instances": 1,
+                "perc_instances": "0,16%"
+            }
+        ]
+    },
+    {
+        "granularity": "METHOD",
+        "smells": [
+            {
+                "smell": "Long Parameter List",
+                "instances": 2197,
+                "perc_instances": "62,11%"
+            },
+            {
+                "smell": "Complex Method",
+                "instances": 2033,
+                "perc_instances": "57,48%"
+            },
+            {
+                "smell": "Long Method",
+                "instances": 1201,
+                "perc_instances": "33,96%"
+            },
+            {
+                "smell": "Bumpy Road",
+                "instances": 4,
+                "perc_instances": "0,11%"
+            }
+        ]
+    }
+]

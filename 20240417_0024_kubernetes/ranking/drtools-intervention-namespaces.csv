@@ -1,0 +1,4 @@
+"namespace","intervention","norm_intervention","smell","quality"
+"io.kubernetes.client.openapi.apis","2,000","10.0","Too Large Package/Subsystem","Understandability, Modularity"
+"io.kubernetes.client.openapi.models","2,000","10.0","Too Large Package/Subsystem","Understandability, Modularity"
+"io.kubernetes.client.openapi","1,000","1.0","Cyclic Dependency","Coupling, Modularity"

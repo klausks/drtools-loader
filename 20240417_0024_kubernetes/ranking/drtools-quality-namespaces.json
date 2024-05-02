@@ -1,0 +1,35 @@
+[
+    {
+        "namespace": "io.kubernetes.client.openapi",
+        "quality": "6,000",
+        "norm_quality": 1.0,
+        "smells": [
+            {
+                "smell": "Cyclic Dependency",
+                "quality": "Coupling, Modularity"
+            }
+        ]
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.apis",
+        "quality": "6,000",
+        "norm_quality": 1.0,
+        "smells": [
+            {
+                "smell": "Too Large Package/Subsystem",
+                "quality": "Understandability, Modularity"
+            }
+        ]
+    },
+    {
+        "namespace": "io.kubernetes.client.openapi.models",
+        "quality": "6,000",
+        "norm_quality": 1.0,
+        "smells": [
+            {
+                "smell": "Too Large Package/Subsystem",
+                "quality": "Understandability, Modularity"
+            }
+        ]
+    }
+]

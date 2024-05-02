@@ -1,0 +1,102 @@
+[
+    {
+        "criteria": "Importance",
+        "data": [
+            {
+                "description": "Critical",
+                "weight": 4.0,
+                "impact": ""
+            },
+            {
+                "description": "High",
+                "weight": 2.0,
+                "impact": ""
+            },
+            {
+                "description": "Normal",
+                "weight": 1.0,
+                "impact": ""
+            },
+            {
+                "description": "Low",
+                "weight": 0.5,
+                "impact": ""
+            }
+        ]
+    },
+    {
+        "criteria": "Intervention",
+        "data": [
+            {
+                "description": "Immediate",
+                "weight": 4.0,
+                "impact": ""
+            },
+            {
+                "description": "Planned",
+                "weight": 2.0,
+                "impact": ""
+            },
+            {
+                "description": "Normal",
+                "weight": 1.0,
+                "impact": ""
+            },
+            {
+                "description": "Low",
+                "weight": 0.5,
+                "impact": ""
+            }
+        ]
+    },
+    {
+        "criteria": "Quality",
+        "data": [
+            {
+                "description": "Understandability",
+                "weight": 2.0,
+                "impact": "HIGH"
+            },
+            {
+                "description": "Testability",
+                "weight": 1.0,
+                "impact": "NORMAL"
+            },
+            {
+                "description": "Maintainability",
+                "weight": 2.0,
+                "impact": "HIGH"
+            },
+            {
+                "description": "Complexity",
+                "weight": 3.0,
+                "impact": "CRITICAL"
+            },
+            {
+                "description": "Modularity",
+                "weight": 1.0,
+                "impact": "NORMAL"
+            },
+            {
+                "description": "Cohesion",
+                "weight": 2.0,
+                "impact": "HIGH"
+            },
+            {
+                "description": "Coupling",
+                "weight": 2.0,
+                "impact": "HIGH"
+            },
+            {
+                "description": "Inheritance",
+                "weight": 1.0,
+                "impact": "NORMAL"
+            },
+            {
+                "description": "Encapsulation",
+                "weight": 1.0,
+                "impact": "NORMAL"
+            }
+        ]
+    }
+]

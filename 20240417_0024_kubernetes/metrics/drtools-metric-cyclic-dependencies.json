@@ -1,0 +1,7 @@
+[
+    {
+        "from": "io.kubernetes.client.openapi.JSON",
+        "to": "io.kubernetes.client.openapi.models.V1Status",
+        "number": 1
+    }
+]

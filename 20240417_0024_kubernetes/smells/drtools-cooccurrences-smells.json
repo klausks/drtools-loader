@@ -1,0 +1,87 @@
+[
+    {
+        "category": "INTER_COMPONENT",
+        "data": [
+            {
+                "description": "Big and complex structures inter-components",
+                "instances": 99,
+                "percentual": "15,92%",
+                "smells": "Insufficient Modularization, Complex Method",
+                "impacts_on": "Complexity"
+            },
+            {
+                "description": "Big and complex structures inter-components",
+                "instances": 8,
+                "percentual": "1,29%",
+                "smells": "God Class, Insufficient Modularization, Long Method, Complex Method",
+                "impacts_on": "Size, Complexity"
+            }
+        ]
+    },
+    {
+        "category": "TYPE",
+        "data": [
+            {
+                "description": "Complex and low cohesion structures in types",
+                "instances": 170,
+                "percentual": "27,33%",
+                "smells": "Insufficient Modularization, Multifaceted Abstraction",
+                "impacts_on": "Cohesion, Complexity"
+            },
+            {
+                "description": "Complex structures in types",
+                "instances": 28,
+                "percentual": "4,50%",
+                "smells": "God Class, Insufficient Modularization, Multifaceted Abstraction",
+                "impacts_on": "Complexity, Size"
+            },
+            {
+                "description": "Low cohesion and big structures in types",
+                "instances": 8,
+                "percentual": "1,29%",
+                "smells": "Insufficient Modularization, God Class",
+                "impacts_on": "Cohesion, Size"
+            },
+            {
+                "description": "Low cohesion and cyclic dependency structures in types",
+                "instances": 1,
+                "percentual": "0,16%",
+                "smells": "Insufficient Modularization, Cyclically-dependent Modularization",
+                "impacts_on": "Cohesion, Coupling"
+            }
+        ]
+    },
+    {
+        "category": "METHOD",
+        "data": [
+            {
+                "description": "Structures difficult to maintain in methods",
+                "instances": 642,
+                "percentual": "18,15%",
+                "smells": "Complex Method, Long Method",
+                "impacts_on": "Complexity, Size"
+            },
+            {
+                "description": "Several parameters and complex structures in methods",
+                "instances": 149,
+                "percentual": "4,21%",
+                "smells": "Long Parameter List, Complex Method",
+                "impacts_on": "Complexity, Size"
+            },
+            {
+                "description": "Complex structures in methods",
+                "instances": 3,
+                "percentual": "0,08%",
+                "smells": "Bumpy Road, Long Method, Complex Method",
+                "impacts_on": "Complexity"
+            },
+            {
+                "description": "High complexity structures in methods",
+                "instances": 1,
+                "percentual": "0,03%",
+                "smells": "Complex Method, Bumpy Road",
+                "impacts_on": "Complexity"
+            }
+        ]
+    }
+]

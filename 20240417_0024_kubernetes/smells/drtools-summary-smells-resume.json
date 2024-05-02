@@ -1,0 +1,29 @@
+[
+    {
+        "granularity": "NAMESPACE",
+        "total_smells": 3,
+        "perc_total_smells": "42,86%",
+        "more_than_one_smell": 0.0,
+        "perc_more_than_one_smell": "0,00%",
+        "total": 7,
+        "perc_total": "0,00%"
+    },
+    {
+        "granularity": "TYPE",
+        "total_smells": 622,
+        "perc_total_smells": "94,39%",
+        "more_than_one_smell": 209.0,
+        "perc_more_than_one_smell": "33,60%",
+        "total": 659,
+        "perc_total": "31,71%"
+    },
+    {
+        "granularity": "METHOD",
+        "total_smells": 3537,
+        "perc_total_smells": "14,47%",
+        "more_than_one_smell": 1345.0,
+        "perc_more_than_one_smell": "38,03%",
+        "total": 24448,
+        "perc_total": "5,50%"
+    }
+]

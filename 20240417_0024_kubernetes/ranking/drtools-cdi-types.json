@@ -1,0 +1,4978 @@
+[
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreV1Api",
+        "severity": "10,000",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "60,667"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsV1Api",
+        "severity": "3,977",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "24,125"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageV1Api",
+        "severity": "2,964",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "17,982"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceV1alpha2Api",
+        "severity": "2,901",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "17,597"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationV1Api",
+        "severity": "2,590",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "15,713"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiClient",
+        "severity": "1,569",
+        "representativity": "10,000",
+        "quality": "10,000",
+        "intervention": "10,000",
+        "cdi": "15,689"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1Api",
+        "severity": "2,370",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "14,378"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CustomObjectsApi",
+        "severity": "2,227",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "13,511"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchV1Api",
+        "severity": "2,150",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "13,043"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta2Api",
+        "severity": "2,040",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "12,375"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta3Api",
+        "severity": "2,040",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "12,375"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1alpha1Api",
+        "severity": "1,921",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "11,656"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1beta1Api",
+        "severity": "1,921",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "11,656"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1Api",
+        "severity": "1,763",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "10,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1alpha1Api",
+        "severity": "1,763",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "10,698"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1Api",
+        "severity": "1,651",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "10,015"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV1Api",
+        "severity": "1,649",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "10,002"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV2Api",
+        "severity": "1,649",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "10,002"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyV1Api",
+        "severity": "1,619",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,823"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.JSON",
+        "severity": "1,262",
+        "representativity": "10,000",
+        "quality": "4,400",
+        "intervention": "8,800",
+        "cdi": "9,760"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsV1Api",
+        "severity": "1,538",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationV1Api",
+        "severity": "1,538",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverV1alpha1Api",
+        "severity": "1,538",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsV1Api",
+        "severity": "1,525",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,252"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationV1Api",
+        "severity": "1,502",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,110"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryV1Api",
+        "severity": "1,502",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "9,110"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1alpha1Api",
+        "severity": "1,426",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "8,649"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeV1Api",
+        "severity": "1,426",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "8,649"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingV1Api",
+        "severity": "1,426",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "8,649"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationV1Api",
+        "severity": "1,246",
+        "representativity": "7,000",
+        "quality": "5,400",
+        "intervention": "5,800",
+        "cdi": "7,558"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JSONSchemaProps",
+        "severity": "1,403",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,909"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSpec",
+        "severity": "1,396",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,885"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeSpec",
+        "severity": "1,341",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,695"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Volume",
+        "severity": "1,337",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,681"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralContainer",
+        "severity": "1,332",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,664"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Container",
+        "severity": "1,328",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,649"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceSpec",
+        "severity": "1,301",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,554"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodStatus",
+        "severity": "1,296",
+        "representativity": "4,000",
+        "quality": "3,700",
+        "intervention": "2,800",
+        "cdi": "4,536"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoint",
+        "severity": "1,104",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,385"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimStatus",
+        "severity": "1,098",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,369"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1NamedRuleWithOperations",
+        "severity": "1,098",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,368"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1NamedRuleWithOperations",
+        "severity": "1,098",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,368"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeItem",
+        "severity": "1,098",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,367"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewSpec",
+        "severity": "1,095",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,359"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMap",
+        "severity": "1,095",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,358"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PolicyRule",
+        "severity": "1,094",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,356"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ResourcePolicyRule",
+        "severity": "1,093",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,353"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ResourcePolicyRule",
+        "severity": "1,093",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,353"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuleWithOperations",
+        "severity": "1,093",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,352"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRule",
+        "severity": "1,089",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,340"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicySpec",
+        "severity": "1,088",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,336"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressSpec",
+        "severity": "1,087",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,333"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UserInfo",
+        "severity": "1,087",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,333"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIVersions",
+        "severity": "1,087",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,333"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ServerStorageVersion",
+        "severity": "1,087",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectRulesReviewStatus",
+        "severity": "1,087",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,332"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatus",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoints",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfiguration",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Role",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfiguration",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,330"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBindingList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatusList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevisionList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacityList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSliceList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointsList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfigurationList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClassList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBindingList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClassList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClassList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfigurationList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResourceList",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimStatus",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentStatus",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingSpec",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingSpec",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaSpec",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaSpec",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinityTerm",
+        "severity": "1,086",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapVolumeSource",
+        "severity": "1,085",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeDriver",
+        "severity": "1,085",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretVolumeSource",
+        "severity": "1,085",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerSpec",
+        "severity": "1,085",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewStatus",
+        "severity": "1,085",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,329"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSubset",
+        "severity": "1,084",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,324"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PolicyRulesWithSubjects",
+        "severity": "1,084",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,324"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PolicyRulesWithSubjects",
+        "severity": "1,084",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,324"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRequirements",
+        "severity": "1,084",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,324"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfig",
+        "severity": "1,084",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,323"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionStatus",
+        "severity": "1,083",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,320"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionStatus",
+        "severity": "1,083",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,320"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaSpec",
+        "severity": "1,083",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,320"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerIngress",
+        "severity": "1,082",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerIngress",
+        "severity": "1,082",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroupList",
+        "severity": "1,082",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyRule",
+        "severity": "1,082",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,317"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnExitCodesRequirement",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapProjection",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretProjection",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingRules",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyStatus",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2AllocationResult",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyStatus",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestSpec",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelectorRequirement",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorRequirement",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopedResourceSelectorRequirement",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobStatus",
+        "severity": "1,081",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,316"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GitRepoVolumeSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceFieldSelector",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusCause",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSpec",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVar",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimParametersReference",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationSpec",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationSpec",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CrossVersionObjectReference",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresourceScale",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvFromSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedLocalObjectReference",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2CrossVersionObjectReference",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiregistrationV1ServiceReference",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Affinity",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapKeySelector",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerState",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressPath",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressPortStatus",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LifecycleHandler",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPeer",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPort",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortStatus",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortworxVolumeSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretKeySelector",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountTokenProjection",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricValueStatus",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,313"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1WebhookClientConfig",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1WebhookClientConfig",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleRef",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFileVolumeSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsVolumeSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1KeyToPath",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NFSVolumeSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSpec",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricStatus",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingPolicy",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricSource",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricStatus",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2QueuingConfiguration",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3QueuingConfiguration",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointConditions",
+        "severity": "1,080",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,312"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1Api",
+        "severity": "1,061",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,253"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1alpha1Api",
+        "severity": "1,044",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1beta1Api",
+        "severity": "1,044",
+        "representativity": "4,000",
+        "quality": "2,400",
+        "intervention": "2,800",
+        "cdi": "3,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Status",
+        "severity": "1,135",
+        "representativity": "4,000",
+        "quality": "2,100",
+        "intervention": "2,200",
+        "cdi": "3,139"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1Event",
+        "severity": "1,044",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,218"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1Event",
+        "severity": "1,044",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,217"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectMeta",
+        "severity": "1,043",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,217"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobSpec",
+        "severity": "1,040",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,214"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeStatus",
+        "severity": "1,040",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,214"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhook",
+        "severity": "1,040",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,213"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhook",
+        "severity": "1,039",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,212"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIPersistentVolumeSource",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIVolumeSource",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetSpec",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStatus",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobStatus",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClass",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,211"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResource",
+        "severity": "1,038",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,210"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecurityContext",
+        "severity": "1,037",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,210"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSecurityContext",
+        "severity": "1,037",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,210"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIPersistentVolumeSource",
+        "severity": "1,037",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,210"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetStatus",
+        "severity": "1,037",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetStatus",
+        "severity": "1,037",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOPersistentVolumeSource",
+        "severity": "1,036",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOVolumeSource",
+        "severity": "1,036",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSystemInfo",
+        "severity": "1,036",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Probe",
+        "severity": "1,036",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,209"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestSpec",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,208"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.VersionInfo",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,208"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicySpec",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,208"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicySpec",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,208"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverSpec",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,208"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimSpec",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDPersistentVolumeSource",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDVolumeSource",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionVersion",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySpreadConstraint",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStatus",
+        "severity": "1,035",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobSpec",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSpec",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentSpec",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,207"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Secret",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetStatus",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeleteOptions",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectReference",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceAttributes",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacity",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClass",
+        "severity": "1,034",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ManagedFieldsEntry",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateTerminated",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceSpec",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,206"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroup",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSlice",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccount",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionNames",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerStatus",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusDetails",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSPersistentVolumeSource",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSVolumeSource",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionSpec",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetStatus",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerStatus",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClass",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClass",
+        "severity": "1,033",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServicePort",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureDiskVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1QuobyteVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeMount",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricSpec",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricStatus",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,205"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceColumnDefinition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionCondition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Condition",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1OwnerReference",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchResources",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchResources",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FCVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPGetAction",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRole",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBinding",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBinding",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerSpec",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexPersistentVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexVolumeSource",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,204"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParentReference",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidationRule",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassParametersReference",
+        "severity": "1,032",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AuthenticationV1TokenRequest",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicy",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContext",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaim",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIService",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicy",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchema",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfiguration",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchema",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfiguration",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequest",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJob",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSet",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Deployment",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscaler",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Ingress",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Job",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalSubjectAccessReview",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Namespace",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Node",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolume",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaim",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Pod",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudget",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSet",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationController",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuota",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scale",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReview",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReview",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Service",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSet",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReview",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReview",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Toleration",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachment",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscaler",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapNodeConfigSource",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerPort",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSPersistentVolumeSource",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSVolumeSource",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersion",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevision",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerCondition",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetSpec",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseSpec",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerStatus",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,203"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Validation",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Validation",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1BoundObjectReference",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SELinuxOptions",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VsphereVirtualDiskVolumeSource",
+        "severity": "1,031",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EndpointPort",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamRef",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamRef",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointAddress",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetSpec",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDR",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRSpec",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundle",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddress",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReview",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBinding",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplate",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassParametersReference",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReview",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBinding",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Binding",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentCondition",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriver",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINode",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Eviction",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClass",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lease",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRange",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicy",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplate",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReview",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Subject",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedObjectReference",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.DiscoveryV1EndpointPort",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2Subject",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3Subject",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ListMeta",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigStatus",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeStatus",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WindowsSecurityContextOptions",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricTarget",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimConsumerReference",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderPersistentVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVarSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewStatus",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeProjection",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1ServiceReference",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1ServiceReference",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFilePersistentVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeFile",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsPersistentVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Taint",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AWSElasticBlockStoreVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GCEPersistentDiskVolumeSource",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetSpec",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitedPriorityLevelConfiguration",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitedPriorityLevelConfiguration",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerSpec",
+        "severity": "1,030",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,202"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyEgressRule",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyIngressRule",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorTerm",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinity",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAntiAffinity",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2NonResourcePolicyRule",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3NonResourcePolicyRule",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceRule",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelector",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scheduling",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Capabilities",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UncountedTerminatedPods",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,201"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaStatus",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceStatus",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAffinity",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceStatus",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WebhookConversion",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextSpec",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSchedulingStatus",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestStatus",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeSource",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostAlias",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressTLS",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IPBlock",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ProjectedVolumeSource",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewSpec",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorLabelRequirement",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerImage",
+        "severity": "1,029",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamKind",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceHandle",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamKind",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClaimSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateWaiting",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EmptyDirVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EventSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExternalDocumentation",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlockerVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostPathVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceAttributes",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectFieldSelector",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PhotonPersistentDiskVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfigOption",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaimStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Preconditions",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDaemonSet",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDeployment",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SeccompProfile",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretReference",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetPersistentVolumeClaimRetentionPolicy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TCPSocketAction",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitResponse",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitResponse",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceConversion",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetUpdateStrategy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStrategy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GRPCAction",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressRule",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressServiceBackend",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaim",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetUpdateStrategy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricIdentifier",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1AuditAnnotation",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ExpressionWarning",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchCondition",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Variable",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AttachedVolume",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1AuditAnnotation",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ExpressionWarning",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchCondition",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Variable",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ServiceAccountSubject",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ServiceAccountSubject",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerResizePolicy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GroupVersionForDiscovery",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPHeader",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressBackend",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobTemplateSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lifecycle",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MatchCondition",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAddress",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimTemplate",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnPodConditionsPattern",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReviewSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServerAddressByClientCIDR",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Sysctl",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeDevice",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerBehavior",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.StorageV1TokenRequest",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapEnvSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimVolumeSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateStatefulSetStrategy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretEnvSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceBackendPort",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeError",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WatchEvent",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventSeries",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresources",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PreferredSchedulingTerm",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WeightedPodAffinityTerm",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricSource",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventSeries",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ExemptPriorityLevelConfiguration",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ExemptPriorityLevelConfiguration",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,200"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AggregationRule",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1TypeChecking",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1TypeChecking",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIProjection",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointHints",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerStatus",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopeSelector",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorTerm",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressRuleValue",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelector",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicy",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExecAction",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceSpec",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Overhead",
+        "severity": "1,028",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowDistinguisherMethod",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2GroupSubject",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationReference",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2UserSubject",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowDistinguisherMethod",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3GroupSubject",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationReference",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3UserSubject",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ForZone",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostIP",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalObjectReference",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodIP",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodOS",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodReadinessGate",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSchedulingGate",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceClaim",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReviewSpec",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressSpec",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReviewStatus",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReviewStatus",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceValidation",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonEndpoint",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralVolumeSource",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressStatus",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigSource",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeDaemonEndpoints",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReviewStatus",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SessionAffinityConfig",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeAffinity",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClientIPConfig",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateRunning",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleSpec",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetOrdinals",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeResources",
+        "severity": "1,027",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,199"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.LogsApi",
+        "severity": "1,004",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,171"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageApi",
+        "severity": "1,003",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,170"
+    },
+    {
+        "type": "io.kubernetes.client.custom.QuantityFormatterTest",
+        "severity": "1,002",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,169"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApisApi",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,168"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreApi",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,168"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.OpenidApi",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,168"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.VersionApi",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,168"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.WellKnownApi",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,168"
+    },
+    {
+        "type": "io.kubernetes.client.custom.SuffixFormatterTest",
+        "severity": "1,001",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,167"
+    },
+    {
+        "type": "io.kubernetes.client.custom.IntOrStringTest",
+        "severity": "1,000",
+        "representativity": "1,000",
+        "quality": "1,500",
+        "intervention": "1,000",
+        "cdi": "1,167"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerConfiguration",
+        "severity": "1,018",
+        "representativity": "1,000",
+        "quality": "1,000",
+        "intervention": "1,000",
+        "cdi": "1,018"
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerVariable",
+        "severity": "1,018",
+        "representativity": "1,000",
+        "quality": "1,000",
+        "intervention": "1,000",
+        "cdi": "1,018"
+    }
+]

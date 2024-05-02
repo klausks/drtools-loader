@@ -1,0 +1,4615 @@
+[
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreV1Api",
+        "dep": 56,
+        "i-dep": 48,
+        "fan-in": 0,
+        "fan-out": 51
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsV1Api",
+        "dep": 31,
+        "i-dep": 23,
+        "fan-in": 0,
+        "fan-out": 26
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageV1Api",
+        "dep": 30,
+        "i-dep": 22,
+        "fan-in": 0,
+        "fan-out": 25
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceV1alpha2Api",
+        "dep": 28,
+        "i-dep": 20,
+        "fan-in": 0,
+        "fan-out": 23
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationV1Api",
+        "dep": 28,
+        "i-dep": 20,
+        "fan-in": 0,
+        "fan-out": 23
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1Api",
+        "dep": 26,
+        "i-dep": 18,
+        "fan-in": 0,
+        "fan-out": 21
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CustomObjectsApi",
+        "dep": 18,
+        "i-dep": 10,
+        "fan-in": 0,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchV1Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta2Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta3Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1alpha1Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1beta1Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1alpha1Api",
+        "dep": 24,
+        "i-dep": 16,
+        "fan-in": 0,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV2Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverV1alpha1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSpec",
+        "dep": 42,
+        "i-dep": 16,
+        "fan-in": 2,
+        "fan-out": 25
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JSONSchemaProps",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 16
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1alpha1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingV1Api",
+        "dep": 22,
+        "i-dep": 14,
+        "fan-in": 0,
+        "fan-out": 17
+    },
+    {
+        "type": "io.kubernetes.client.openapi.JSON",
+        "dep": 29,
+        "i-dep": 2,
+        "fan-in": 559,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiClient",
+        "dep": 39,
+        "i-dep": 4,
+        "fan-in": 59,
+        "fan-out": 19
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeSpec",
+        "dep": 52,
+        "i-dep": 26,
+        "fan-in": 2,
+        "fan-out": 35
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Volume",
+        "dep": 55,
+        "i-dep": 30,
+        "fan-in": 1,
+        "fan-out": 38
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralContainer",
+        "dep": 37,
+        "i-dep": 11,
+        "fan-in": 1,
+        "fan-out": 20
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Container",
+        "dep": 37,
+        "i-dep": 11,
+        "fan-in": 1,
+        "fan-out": 20
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationV1Api",
+        "dep": 21,
+        "i-dep": 13,
+        "fan-in": 0,
+        "fan-out": 16
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodStatus",
+        "dep": 33,
+        "i-dep": 6,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectMeta",
+        "dep": 30,
+        "i-dep": 3,
+        "fan-in": 83,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1Event",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 2,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1Event",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 2,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeStatus",
+        "dep": 35,
+        "i-dep": 9,
+        "fan-in": 1,
+        "fan-out": 18
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhook",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhook",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobSpec",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetSpec",
+        "dep": 33,
+        "i-dep": 7,
+        "fan-in": 1,
+        "fan-out": 15
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClass",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResource",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStatus",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIPersistentVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1Api",
+        "dep": 19,
+        "i-dep": 11,
+        "fan-in": 0,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobStatus",
+        "dep": 30,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSecurityContext",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSystemInfo",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIPersistentVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicySpec",
+        "dep": 33,
+        "i-dep": 7,
+        "fan-in": 1,
+        "fan-out": 15
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicySpec",
+        "dep": 33,
+        "i-dep": 7,
+        "fan-in": 1,
+        "fan-out": 15
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecurityContext",
+        "dep": 30,
+        "i-dep": 5,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOPersistentVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.VersionInfo",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Probe",
+        "dep": 30,
+        "i-dep": 5,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoint",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestSpec",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionVersion",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDPersistentVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimSpec",
+        "dep": 31,
+        "i-dep": 5,
+        "fan-in": 2,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySpreadConstraint",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverSpec",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetStatus",
+        "dep": 29,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Status",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 30,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSlice",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1NamedRuleWithOperations",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1NamedRuleWithOperations",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroup",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 22,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccount",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentSpec",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeItem",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Secret",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 3,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacity",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerStatus",
+        "dep": 30,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PolicyRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeleteOptions",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 28,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionNames",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClass",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ResourcePolicyRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ResourcePolicyRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 9,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceAttributes",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionSpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateTerminated",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ManagedFieldsEntry",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSPersistentVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusDetails",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchResources",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchResources",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricSpec",
+        "dep": 31,
+        "i-dep": 6,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricStatus",
+        "dep": 31,
+        "i-dep": 6,
+        "fan-in": 1,
+        "fan-out": 14
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuleWithOperations",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClass",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClass",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMap",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicySpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Condition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 4,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceColumnDefinition",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPGetAction",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureDiskVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1QuobyteVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeMount",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBinding",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBinding",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1OwnerReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServicePort",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRole",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerSpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressSpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1alpha1Api",
+        "dep": 18,
+        "i-dep": 10,
+        "fan-in": 0,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1beta1Api",
+        "dep": 18,
+        "i-dep": 10,
+        "fan-in": 0,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PolicyRulesWithSubjects",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PolicyRulesWithSubjects",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectRulesReviewStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FCVolumeSource",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexPersistentVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIVersions",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSubset",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapNodeConfigSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AuthenticationV1TokenRequest",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContext",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaim",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequest",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinition",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassParametersReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalSubjectAccessReview",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReview",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReview",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReview",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReview",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachment",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidationRule",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersion",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicy",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIService",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicy",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchema",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfiguration",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchema",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfiguration",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJob",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSet",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Deployment",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscaler",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Ingress",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Job",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Namespace",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Node",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolume",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaim",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 3,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Pod",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudget",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSet",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationController",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuota",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scale",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Service",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSet",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscaler",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 2,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevision",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResourceList",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 31,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaSpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaSpec",
+        "dep": 30,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBindingList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatusList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevisionList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacityList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSliceList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointsList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfigurationList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClassList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBindingList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClassList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClassList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfigurationList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParentReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerPort",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetSpec",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyList",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoints",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfiguration",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Role",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfiguration",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationCondition",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSPersistentVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Toleration",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeDriver",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ServerStorageVersion",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinityTerm",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 3,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UserInfo",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 4,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerStatus",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfig",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseSpec",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2Subject",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3Subject",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRequirements",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 4,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimConsumerReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassParametersReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentCondition",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointAddress",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Subject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundle",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Validation",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplate",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Validation",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Binding",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriver",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINode",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VsphereVirtualDiskVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeFile",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Taint",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyRule",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1ServiceReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1ServiceReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFilePersistentVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderPersistentVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVarSource",
+        "dep": 30,
+        "i-dep": 5,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsPersistentVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeProjection",
+        "dep": 30,
+        "i-dep": 5,
+        "fan-in": 1,
+        "fan-out": 13
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricTarget",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 5,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EndpointPort",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDR",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddress",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReview",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBinding",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReview",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBinding",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Eviction",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClass",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lease",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRange",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicy",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplate",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReview",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamRef",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamRef",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AWSElasticBlockStoreVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1BoundObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GCEPersistentDiskVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SELinuxOptions",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewStatus",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 3,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroupList",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeStatus",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerIngress",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerIngress",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnExitCodesRequirement",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.DiscoveryV1EndpointPort",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WindowsSecurityContextOptions",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaSpec",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ListMeta",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 69,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2AllocationResult",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelectorRequirement",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorRequirement",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopedResourceSelectorRequirement",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapProjection",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretProjection",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestSpec",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingRules",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyEgressRule",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyIngressRule",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinity",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAntiAffinity",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobStatus",
+        "dep": 29,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorTerm",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitedPriorityLevelConfiguration",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitedPriorityLevelConfiguration",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleRef",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.LogsApi",
+        "dep": 16,
+        "i-dep": 8,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimParametersReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CrossVersionObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresourceScale",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVar",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceFieldSelector",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedLocalObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2CrossVersionObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 3,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2NonResourcePolicyRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3NonResourcePolicyRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GitRepoVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressPath",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricSource",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricStatus",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFileVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressPortStatus",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1KeyToPath",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 4,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NFSVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortStatus",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelector",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 20,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceRule",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scheduling",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Affinity",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapKeySelector",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerState",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LifecycleHandler",
+        "dep": 29,
+        "i-dep": 4,
+        "fan-in": 1,
+        "fan-out": 12
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortworxVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretKeySelector",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountTokenProjection",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvFromSource",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPeer",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingPolicy",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusCause",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAffinity",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceStatus",
+        "dep": 29,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1WebhookClientConfig",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1WebhookClientConfig",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPort",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricValueStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 5,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorLabelRequirement",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WebhookConversion",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiregistrationV1ServiceReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Capabilities",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UncountedTerminatedPods",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IPBlock",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ProjectedVolumeSource",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2QueuingConfiguration",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3QueuingConfiguration",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointConditions",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextSpec",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSchedulingStatus",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostAlias",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressTLS",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewSpec",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1AuditAnnotation",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ExpressionWarning",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchCondition",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Variable",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AttachedVolume",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1AuditAnnotation",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ExpressionWarning",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchCondition",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Variable",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitResponse",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ServiceAccountSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitResponse",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ServiceAccountSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerResizePolicy",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceConversion",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GroupVersionForDiscovery",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPHeader",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressServiceBackend",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MatchCondition",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAddress",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnPodConditionsPattern",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaim",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServerAddressByClientCIDR",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Sysctl",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TCPSocketAction",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeDevice",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricIdentifier",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 6,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerImage",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleSpec",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostPathVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectFieldSelector",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimTemplate",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PhotonPersistentDiskVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaimStatus",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SeccompProfile",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestStatus",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricSource",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricStatus",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricSource",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricStatus",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WatchEvent",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 0,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.StorageV1TokenRequest",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GRPCAction",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PreferredSchedulingTerm",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleStatus",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WeightedPodAffinityTerm",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventSeries",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressBackend",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 2,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobTemplateSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 7,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReviewSpec",
+        "dep": 28,
+        "i-dep": 3,
+        "fan-in": 1,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetUpdateStrategy",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStrategy",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EmptyDirVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressRule",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lifecycle",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDaemonSet",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDeployment",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetUpdateStrategy",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerBehavior",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamKind",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceHandle",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamKind",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClaimSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateWaiting",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EventSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExternalDocumentation",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlockerVolumeSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceAttributes",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfigOption",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Preconditions",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 7,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetPersistentVolumeClaimRetentionPolicy",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeSpec",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressRuleValue",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeSpec",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelector",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 5,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicy",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresources",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateStatefulSetStrategy",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeError",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AggregationRule",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1TypeChecking",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1TypeChecking",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIProjection",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointHints",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerStatus",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopeSelector",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorTerm",
+        "dep": 28,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.custom.QuantityFormatterTest",
+        "dep": 4,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapEnvSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretEnvSource",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceBackendPort",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventSeries",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ExemptPriorityLevelConfiguration",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ExemptPriorityLevelConfiguration",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExecAction",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceSpec",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Overhead",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowDistinguisherMethod",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2GroupSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2UserSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowDistinguisherMethod",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3GroupSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3UserSubject",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ForZone",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodOS",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodReadinessGate",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSchedulingGate",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceClaim",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonEndpoint",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressSpec",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReviewStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReviewStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceValidation",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralVolumeSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigSource",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 2,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeDaemonEndpoints",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReviewStatus",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SessionAffinityConfig",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeAffinity",
+        "dep": 27,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostIP",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalObjectReference",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 10,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodIP",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReviewSpec",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateRunning",
+        "dep": 27,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClientIPConfig",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleSpec",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetOrdinals",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeResources",
+        "dep": 26,
+        "i-dep": 1,
+        "fan-in": 1,
+        "fan-out": 9
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApisApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.VersionApi",
+        "dep": 17,
+        "i-dep": 9,
+        "fan-in": 0,
+        "fan-out": 11
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.OpenidApi",
+        "dep": 16,
+        "i-dep": 8,
+        "fan-in": 0,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.WellKnownApi",
+        "dep": 16,
+        "i-dep": 8,
+        "fan-in": 0,
+        "fan-out": 10
+    },
+    {
+        "type": "io.kubernetes.client.custom.SuffixFormatterTest",
+        "dep": 3,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.custom.SuffixFormatter",
+        "dep": 2,
+        "i-dep": 0,
+        "fan-in": 16,
+        "fan-out": 5
+    },
+    {
+        "type": "io.kubernetes.client.custom.IntOrStringTest",
+        "dep": 5,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.custom.QuantityFormatter",
+        "dep": 4,
+        "i-dep": 0,
+        "fan-in": 20,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.custom.IntOrString",
+        "dep": 8,
+        "i-dep": 0,
+        "fan-in": 30,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AbstractOpenApiSchema",
+        "dep": 5,
+        "i-dep": 1,
+        "fan-in": 0,
+        "fan-out": 6
+    },
+    {
+        "type": "io.kubernetes.client.custom.Quantity",
+        "dep": 8,
+        "i-dep": 0,
+        "fan-in": 28,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.openapi.JSONTest",
+        "dep": 11,
+        "i-dep": 2,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.openapi.GzipRequestInterceptor",
+        "dep": 6,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiException",
+        "dep": 3,
+        "i-dep": 0,
+        "fan-in": 75,
+        "fan-out": 4
+    },
+    {
+        "type": "io.kubernetes.client.openapi.auth.ApiKeyAuth",
+        "dep": 5,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 5
+    },
+    {
+        "type": "io.kubernetes.client.custom.NodeMetrics",
+        "dep": 4,
+        "i-dep": 2,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.custom.PodMetrics",
+        "dep": 3,
+        "i-dep": 2,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ProgressRequestBody",
+        "dep": 8,
+        "i-dep": 0,
+        "fan-in": 59,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ProgressResponseBody",
+        "dep": 8,
+        "i-dep": 0,
+        "fan-in": 59,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.StringUtil",
+        "dep": 2,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 4
+    },
+    {
+        "type": "io.kubernetes.client.custom.IOTrio",
+        "dep": 5,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.custom.NodeMetricsList",
+        "dep": 4,
+        "i-dep": 2,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.custom.BaseExponent",
+        "dep": 0,
+        "i-dep": 0,
+        "fan-in": 20,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.custom.PodMetricsList",
+        "dep": 3,
+        "i-dep": 2,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.openapi.Pair",
+        "dep": 0,
+        "i-dep": 0,
+        "fan-in": 65,
+        "fan-out": 1
+    },
+    {
+        "type": "io.kubernetes.client.openapi.auth.HttpBasicAuth",
+        "dep": 7,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 4
+    },
+    {
+        "type": "io.kubernetes.client.gson.V1StatusJsonDeserializerTest",
+        "dep": 5,
+        "i-dep": 1,
+        "fan-in": 0,
+        "fan-out": 1
+    },
+    {
+        "type": "io.kubernetes.client.openapi.auth.HttpBearerAuth",
+        "dep": 5,
+        "i-dep": 2,
+        "fan-in": 1,
+        "fan-out": 6
+    },
+    {
+        "type": "io.kubernetes.client.custom.V1Patch",
+        "dep": 5,
+        "i-dep": 0,
+        "fan-in": 26,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerConfiguration",
+        "dep": 1,
+        "i-dep": 0,
+        "fan-in": 1,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.gson.V1StatusPreProcessor",
+        "dep": 5,
+        "i-dep": 1,
+        "fan-in": 2,
+        "fan-out": 4
+    },
+    {
+        "type": "io.kubernetes.client.custom.MapUtilsTest",
+        "dep": 4,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiResponse",
+        "dep": 2,
+        "i-dep": 0,
+        "fan-in": 59,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.custom.IntOrStringJacksonSerializer",
+        "dep": 4,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 1
+    },
+    {
+        "type": "io.kubernetes.client.custom.MapUtils",
+        "dep": 2,
+        "i-dep": 0,
+        "fan-in": 1,
+        "fan-out": 1
+    },
+    {
+        "type": "io.kubernetes.client.openapi.V1SecretTest",
+        "dep": 4,
+        "i-dep": 1,
+        "fan-in": 0,
+        "fan-out": 3
+    },
+    {
+        "type": "io.kubernetes.client.custom.ContainerMetrics",
+        "dep": 1,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.openapi.Configuration",
+        "dep": 0,
+        "i-dep": 0,
+        "fan-in": 58,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerVariable",
+        "dep": 1,
+        "i-dep": 0,
+        "fan-in": 0,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ApiCallback",
+        "dep": 3,
+        "i-dep": 0,
+        "fan-in": 58,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.openapi.auth.Authentication",
+        "dep": 5,
+        "i-dep": 2,
+        "fan-in": 4,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.common.KubernetesListObject",
+        "dep": 2,
+        "i-dep": 1,
+        "fan-in": 66,
+        "fan-out": 2
+    },
+    {
+        "type": "io.kubernetes.client.custom.QuantityFormatException",
+        "dep": 0,
+        "i-dep": 0,
+        "fan-in": 4,
+        "fan-out": 1
+    },
+    {
+        "type": "io.kubernetes.client.common.KubernetesType",
+        "dep": 0,
+        "i-dep": 0,
+        "fan-in": 2,
+        "fan-out": 0
+    },
+    {
+        "type": "io.kubernetes.client.common.KubernetesObject",
+        "dep": 1,
+        "i-dep": 1,
+        "fan-in": 78,
+        "fan-out": 2
+    }
+]

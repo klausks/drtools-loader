@@ -1,0 +1,6564 @@
+[
+    {
+        "type": "io.kubernetes.client.openapi.ApiClient",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Hub-like Modularization",
+                "quality": "Maintainability, Coupling"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.JSON",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Cyclically-dependent Modularization",
+                "quality": "Modularity"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            },
+            {
+                "smell": "Deep Hierarchy",
+                "quality": "Inheritance"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1alpha1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationV1beta1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingV2Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1alpha1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CustomObjectsApi",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta2Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverV1beta3Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverV1alpha1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1alpha1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceV1alpha2Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageV1Api",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1alpha1Api",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1Api",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationV1beta1Api",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1WebhookClientConfig",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1WebhookClientConfig",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiregistrationV1ServiceReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Affinity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1NamedRuleWithOperations",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ServerStorageVersion",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBindingSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2AllocationResult",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimParametersReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroupList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResourceList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIVersions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFileVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1NamedRuleWithOperations",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBindingSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PolicyRulesWithSubjects",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2QueuingConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ResourcePolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PolicyRulesWithSubjects",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3QueuingConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ResourcePolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBindingList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentStatusList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMap",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapKeySelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapProjection",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Container",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerState",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevisionList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CrossVersionObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeDriver",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacityList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresourceScale",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoint",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointConditions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Endpoints",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSliceList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointsList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSubset",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvFromSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVar",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralContainer",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GitRepoVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressPath",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerIngress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressPortStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JSONSchemaProps",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1KeyToPath",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelectorRequirement",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LifecycleHandler",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeItem",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerIngress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhookConfigurationList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPeer",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyPort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicySpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NFSVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorRequirement",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeSpec",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinityTerm",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfig",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnExitCodesRequirement",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSpec",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodStatus",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PortworxVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClassList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceFieldSelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRequirements",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Role",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBindingList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleRef",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuleWithOperations",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClassList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopedResourceSelectorRequirement",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretKeySelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretProjection",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccountTokenProjection",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceSpec",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Status",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Cyclically-dependent Modularization",
+                "quality": "Modularity"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusCause",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClassList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectRulesReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedLocalObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UserInfo",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhookConfigurationList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Volume",
+        "smells": [
+            {
+                "smell": "God Class",
+                "quality": "Understandability, Maintainability"
+            },
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ContainerResourceMetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2CrossVersionObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerList",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingPolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HPAScalingRules",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricValueStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ObjectMetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            },
+            {
+                "smell": "Multifaceted Abstraction",
+                "quality": "Cohesion"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AdmissionregistrationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiextensionsApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApiregistrationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ApisApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AppsApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthenticationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AuthorizationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.AutoscalingApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.BatchApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CertificatesApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoordinationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.CoreApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.DiscoveryApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.EventsApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.FlowcontrolApiserverApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.InternalApiserverApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.LogsApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NetworkingApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.NodeApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.OpenidApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.PolicyApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.RbacAuthorizationApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.ResourceApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.SchedulingApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.StorageApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.VersionApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.apis.WellKnownApi",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AdmissionregistrationV1ServiceReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.ApiextensionsV1ServiceReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.AuthenticationV1TokenRequest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EndpointPort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1Event",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.CoreV1EventSeries",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.DiscoveryV1EndpointPort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1Event",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.EventsV1EventSeries",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.StorageV1TokenRequest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AggregationRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1AuditAnnotation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDR",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterCIDRSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundle",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ClusterTrustBundleSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ExpressionWarning",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1IPAddressSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1MatchResources",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamKind",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParamRef",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ParentReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1SelfSubjectReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersion",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1StorageVersionCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1TypeChecking",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicyBinding",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1ValidatingAdmissionPolicySpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Validation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha1Variable",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContext",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2PodSchedulingContextStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaim",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimConsumerReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimSchedulingStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplate",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClaimTemplateSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClass",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceClassParametersReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1alpha2ResourceHandle",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIGroup",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIResource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIService",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1APIServiceStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AttachedVolume",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AWSElasticBlockStoreVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureDiskVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1AzureFilePersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1AuditAnnotation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ExpressionWarning",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1MatchResources",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamKind",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ParamRef",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1SelfSubjectReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1TypeChecking",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicyBinding",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1ValidatingAdmissionPolicySpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Validation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta1Variable",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ExemptPriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowDistinguisherMethod",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchema",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2FlowSchemaStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2GroupSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitedPriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2LimitResponse",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2NonResourcePolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2PriorityLevelConfigurationStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2ServiceAccountSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2Subject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta2UserSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ExemptPriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowDistinguisherMethod",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchema",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3FlowSchemaStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3GroupSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitedPriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3LimitResponse",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3NonResourcePolicyRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfiguration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3PriorityLevelConfigurationStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3ServiceAccountSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3Subject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1beta3UserSubject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Binding",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1BoundObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Capabilities",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CephFSVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CertificateSigningRequestStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CinderVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClaimSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClientIPConfig",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRole",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ClusterRoleBinding",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ComponentCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Condition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapEnvSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ConfigMapNodeConfigSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerImage",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerPort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerResizePolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateRunning",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateTerminated",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStateWaiting",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ContainerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ControllerRevision",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJob",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CronJobSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriver",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIDriverSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINode",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSINodeSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIStorageCapacity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CSIVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceColumnDefinition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceConversion",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionNames",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceDefinitionVersion",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceSubresources",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1CustomResourceValidation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonEndpoint",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSet",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DaemonSetUpdateStrategy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeleteOptions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Deployment",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DeploymentStrategy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIProjection",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeFile",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1DownwardAPIVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EmptyDirVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointAddress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointHints",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EndpointSlice",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EnvVarSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EphemeralVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1EventSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Eviction",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExecAction",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ExternalDocumentation",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FCVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlexVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1FlockerVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ForZone",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GCEPersistentDiskVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GlusterfsPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GroupVersionForDiscovery",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1GRPCAction",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscaler",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HorizontalPodAutoscalerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostAlias",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostIP",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HostPathVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPGetAction",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPHeader",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1HTTPIngressRuleValue",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Ingress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressBackend",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClass",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassParametersReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressClassSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressLoadBalancerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressServiceBackend",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IngressTLS",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1IPBlock",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ISCSIVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Job",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1JobTemplateSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LabelSelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lease",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LeaseSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Lifecycle",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRange",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LimitRangeSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ListMeta",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LoadBalancerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalSubjectAccessReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1LocalVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ManagedFieldsEntry",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MatchCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1MutatingWebhook",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Namespace",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NamespaceStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyEgressRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NetworkPolicyIngressRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Node",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAddress",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeAffinity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeConfigStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeDaemonEndpoints",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSelectorTerm",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NodeSystemInfo",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceAttributes",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1NonResourceRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectFieldSelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectMeta",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Overhead",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1OwnerReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolume",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaim",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimTemplate",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeClaimVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PersistentVolumeStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PhotonPersistentDiskVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Pod",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAffinity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodAntiAffinity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudget",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDisruptionBudgetStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodDNSConfigOption",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodFailurePolicyOnPodConditionsPattern",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodIP",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodOS",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodReadinessGate",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaim",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodResourceClaimStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSchedulingGate",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodSecurityContext",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplate",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PodTemplateSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Preconditions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PreferredSchedulingTerm",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1PriorityClass",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Probe",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ProjectedVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1QuobyteVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RBDVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSet",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicaSetStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationController",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ReplicationControllerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceAttributes",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceClaim",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuota",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ResourceQuotaStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RoleBinding",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDaemonSet",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateDeployment",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RollingUpdateStatefulSetStrategy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1RuntimeClass",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scale",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleIOVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScaleStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Scheduling",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ScopeSelector",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SeccompProfile",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Secret",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretEnvSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecretReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SecurityContext",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectAccessReviewSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SelfSubjectRulesReviewSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SELinuxOptions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServerAddressByClientCIDR",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Service",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceAccount",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceBackendPort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServicePort",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ServiceStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SessionAffinityConfig",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSet",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetOrdinals",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetPersistentVolumeClaimRetentionPolicy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatefulSetUpdateStrategy",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StatusDetails",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageClass",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSPersistentVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1StorageOSVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Subject",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1SubjectAccessReviewStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Sysctl",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Taint",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TCPSocketAction",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenRequestStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReview",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TokenReviewSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1Toleration",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorLabelRequirement",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySelectorTerm",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TopologySpreadConstraint",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1TypedObjectReference",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1UncountedTerminatedPods",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidatingWebhook",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1ValidationRule",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachment",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeAttachmentSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeDevice",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeError",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeMount",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeAffinity",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeNodeResources",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VolumeProjection",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1VsphereVirtualDiskVolumeSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WatchEvent",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WebhookConversion",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WeightedPodAffinityTerm",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V1WindowsSecurityContextOptions",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ExternalMetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscaler",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerBehavior",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerCondition",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2HorizontalPodAutoscalerStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricIdentifier",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricSpec",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2MetricTarget",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2PodsMetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricSource",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.V2ResourceMetricStatus",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.models.VersionInfo",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerConfiguration",
+        "smells": [
+            {
+                "smell": "Deficient Encapsulation",
+                "quality": "Encapsulation"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.openapi.ServerVariable",
+        "smells": [
+            {
+                "smell": "Deficient Encapsulation",
+                "quality": "Encapsulation"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.custom.IntOrStringTest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.custom.QuantityFormatterTest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    },
+    {
+        "type": "io.kubernetes.client.custom.SuffixFormatterTest",
+        "smells": [
+            {
+                "smell": "Insufficient Modularization",
+                "quality": "Modularity, Maintainability"
+            }
+        ]
+    }
+]

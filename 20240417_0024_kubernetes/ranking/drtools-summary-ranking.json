@@ -1,0 +1,196 @@
+[
+    {
+        "granularity": "NAMESPACE",
+        "criterion": "Quality Attributes",
+        "details": [
+            {
+                "description": "Modularity",
+                "percentual": "50,00%",
+                "weight_developer": "33,33%"
+            },
+            {
+                "description": "Understandability",
+                "percentual": "33,33%",
+                "weight_developer": "44,44%"
+            },
+            {
+                "description": "Coupling",
+                "percentual": "16,67%",
+                "weight_developer": "22,22%"
+            }
+        ]
+    },
+    {
+        "granularity": "NAMESPACE",
+        "criterion": "Intervention",
+        "details": [
+            {
+                "description": "Planned",
+                "percentual": "66,67%",
+                "weight_developer": "80,00%"
+            },
+            {
+                "description": "Normal",
+                "percentual": "33,33%",
+                "weight_developer": "20,00%"
+            }
+        ]
+    },
+    {
+        "granularity": "NAMESPACE",
+        "criterion": "Importance",
+        "details": [
+            {
+                "description": "Normal",
+                "percentual": "66,67%",
+                "weight_developer": "50,00%"
+            },
+            {
+                "description": "High",
+                "percentual": "33,33%",
+                "weight_developer": "50,00%"
+            }
+        ]
+    },
+    {
+        "granularity": "TYPE",
+        "criterion": "Quality Attributes",
+        "details": [
+            {
+                "description": "Maintainability",
+                "percentual": "43,26%",
+                "weight_developer": "54,45%"
+            },
+            {
+                "description": "Modularity",
+                "percentual": "40,89%",
+                "weight_developer": "25,73%"
+            },
+            {
+                "description": "Cohesion",
+                "percentual": "13,15%",
+                "weight_developer": "16,55%"
+            },
+            {
+                "description": "Understandability",
+                "percentual": "2,43%",
+                "weight_developer": "3,06%"
+            },
+            {
+                "description": "Encapsulation",
+                "percentual": "0,13%",
+                "weight_developer": "0,08%"
+            },
+            {
+                "description": "Coupling",
+                "percentual": "0,07%",
+                "weight_developer": "0,08%"
+            },
+            {
+                "description": "Inheritance",
+                "percentual": "0,07%",
+                "weight_developer": "0,04%"
+            }
+        ]
+    },
+    {
+        "granularity": "TYPE",
+        "criterion": "Intervention",
+        "details": [
+            {
+                "description": "Planned",
+                "percentual": "99,77%",
+                "weight_developer": "99,88%"
+            },
+            {
+                "description": "Normal",
+                "percentual": "0,23%",
+                "weight_developer": "0,12%"
+            }
+        ]
+    },
+    {
+        "granularity": "TYPE",
+        "criterion": "Importance",
+        "details": [
+            {
+                "description": "Normal",
+                "percentual": "95,37%",
+                "weight_developer": "91,14%"
+            },
+            {
+                "description": "High",
+                "percentual": "4,63%",
+                "weight_developer": "8,86%"
+            }
+        ]
+    },
+    {
+        "granularity": "METHOD",
+        "criterion": "Quality Attributes",
+        "details": [
+            {
+                "description": "Maintainability",
+                "percentual": "50,75%",
+                "weight_developer": "46,34%"
+            },
+            {
+                "description": "Understandability",
+                "percentual": "30,23%",
+                "weight_developer": "27,61%"
+            },
+            {
+                "description": "Complexity",
+                "percentual": "19,02%",
+                "weight_developer": "26,05%"
+            }
+        ]
+    },
+    {
+        "granularity": "METHOD",
+        "criterion": "Intervention",
+        "details": [
+            {
+                "description": "Low",
+                "percentual": "40,42%",
+                "weight_developer": "19,80%"
+            },
+            {
+                "description": "Normal",
+                "percentual": "37,41%",
+                "weight_developer": "36,64%"
+            },
+            {
+                "description": "Planned",
+                "percentual": "22,10%",
+                "weight_developer": "43,29%"
+            },
+            {
+                "description": "Immediate",
+                "percentual": "0,07%",
+                "weight_developer": "0,29%"
+            }
+        ]
+    },
+    {
+        "granularity": "METHOD",
+        "criterion": "Importance",
+        "details": [
+            {
+                "description": "High",
+                "percentual": "59,50%",
+                "weight_developer": "85,31%"
+            },
+            {
+                "description": "Low",
+                "percentual": "40,42%",
+                "weight_developer": "14,49%"
+            },
+            {
+                "description": "Critical",
+                "percentual": "0,07%",
+                "weight_developer": "0,21%"
+            }
+        ]
+    }
+]

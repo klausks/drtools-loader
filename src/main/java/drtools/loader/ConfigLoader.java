@@ -39,6 +39,33 @@ public class ConfigLoader {
         var qualityAttributesConfigs = new HashMap<String, QualityAttributeConfig>();
         var smellConfigs = new HashMap<String, SmellConfig>();
 
+        extractDefaultConfigs(execution, defaultCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
+        for (CriteriaConfig criteriaConfig : usedCriteriaConfig) {
+            Criteria criteria = criteriaConfig.criteria();
+            var attributes = criteriaConfig.data();
+            switch(criteria) {
+                case INTERVENTION -> {
+                    attributes.forEach(attr -> {
+                        interventionConfigs.get(attr.description()).setWeightUsed(attr.weight());
+                    } );
+                }
+                case QUALITY -> {
+                    attributes.forEach(attr -> {
+                       qualityAttributesConfigs.get(attr.description()).setImpactUsed(attr.impact());
+                       qualityAttributesConfigs.get(attr.description()).setWeightUsed(attr.weight());
+                    } );
+                }
+                case IMPORTANCE -> {
+                    attributes.forEach(attr -> {
+                        importanceConfigs.get(attr.description()).setWeightUsed(attr.weight());
+                    } );
+                }
+            }
+        }
+
+    }
+
+    private static void extractDefaultConfigs(Execution execution, List<CriteriaConfig> defaultCriteriaConfig, HashMap<String, InterventionConfig> interventionConfigs, HashMap<String, QualityAttributeConfig> qualityAttributesConfigs, HashMap<String, ImportanceConfig> importanceConfigs) {
         for (CriteriaConfig criteriaConfig : defaultCriteriaConfig) {
             Criteria criteria = criteriaConfig.criteria();
             var attributes = criteriaConfig.data();
@@ -57,14 +84,22 @@ public class ConfigLoader {
                         var qualityAttributesConfig = new QualityAttributeConfig();
                         qualityAttributesConfig.setQualityAttributeDescription(attr.description());
                         qualityAttributesConfig.setWeightDefault(attr.weight());
+                        qualityAttributesConfig.setImpactDefault(attr.impact());
                         qualityAttributesConfig.setLastExecution(execution);
                         qualityAttributesConfigs.put(attr.description(), qualityAttributesConfig);
                     } );
                 }
+                case IMPORTANCE -> {
+                    attributes.forEach(attr -> {
+                        var importanceConfig = new ImportanceConfig();
+                        importanceConfig.setImportanceDescription(attr.description());
+                        importanceConfig.setWeightDefault(attr.weight());
+                        importanceConfig.setLastExecution(execution);
+                        importanceConfigs.put(attr.description(), importanceConfig);
+                    } );
+                }
             }
         }
-
-
     }
 
     private InterventionConfig toInterventionConfig(CriteriaConfig.Attributes attributes, boolean isDefault) {

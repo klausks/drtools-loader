@@ -10,25 +10,37 @@ import drtools.loader.model.smell.config.ImportanceConfig;
 import drtools.loader.model.smell.config.InterventionConfig;
 import drtools.loader.model.smell.config.QualityAttributeConfig;
 import drtools.loader.model.smell.config.SmellConfig;
+import drtools.loader.out.smell.config.ImportanceConfigRepository;
+import drtools.loader.out.smell.config.InterventionConfigrepository;
+import drtools.loader.out.smell.config.QualityAttributeConfigRepository;
+import drtools.loader.out.smell.config.SmellConfigRepository;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 @Component
-public class ConfigLoader {
+public class CriteriaConfigLoader {
+
     private final MetricThresholdsParser metricThresholdsParser;
     private final SmellConfigParser smellConfigParser;
     private final CriteriaConfigParser criteriaConfigParser;
 
+    private final ImportanceConfigRepository importanceConfigRepository;
+    private final QualityAttributeConfigRepository qualityAttributeConfigRepository;
+    private final InterventionConfigrepository interventionConfigrepository;
+    private final SmellConfigRepository smellConfigRepositoryRepository;
 
-    public ConfigLoader(MetricThresholdsParser metricThresholdsParser, SmellConfigParser smellConfigParser, CriteriaConfigParser criteriaConfigParser) {
+
+    public CriteriaConfigLoader(MetricThresholdsParser metricThresholdsParser, SmellConfigParser smellConfigParser, CriteriaConfigParser criteriaConfigParser, ImportanceConfigRepository importanceConfigRepository, QualityAttributeConfigRepository qualityAttributeConfigRepository, InterventionConfigrepository interventionConfigrepository, SmellConfigRepository smellConfigRepositoryRepository) {
         this.metricThresholdsParser = metricThresholdsParser;
         this.smellConfigParser = smellConfigParser;
         this.criteriaConfigParser = criteriaConfigParser;
+        this.importanceConfigRepository = importanceConfigRepository;
+        this.qualityAttributeConfigRepository = qualityAttributeConfigRepository;
+        this.interventionConfigrepository = interventionConfigrepository;
+        this.smellConfigRepositoryRepository = smellConfigRepositoryRepository;
     }
 
     public void loadCriteriaConfig(Execution execution) throws IOException {
@@ -37,9 +49,16 @@ public class ConfigLoader {
         var importanceConfigs = new HashMap<String, ImportanceConfig>();
         var interventionConfigs = new HashMap<String, InterventionConfig>();
         var qualityAttributesConfigs = new HashMap<String, QualityAttributeConfig>();
-        var smellConfigs = new HashMap<String, SmellConfig>();
 
         extractDefaultConfigs(execution, defaultCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
+        extractUsedConfig(usedCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
+
+        importanceConfigRepository.saveAll(importanceConfigs.values());
+        interventionConfigrepository.saveAll(interventionConfigs.values());
+        qualityAttributeConfigRepository.saveAll(qualityAttributesConfigs.values());
+    }
+
+    private static void extractUsedConfig(List<CriteriaConfig> usedCriteriaConfig, HashMap<String, InterventionConfig> interventionConfigs, HashMap<String, QualityAttributeConfig> qualityAttributesConfigs, HashMap<String, ImportanceConfig> importanceConfigs) {
         for (CriteriaConfig criteriaConfig : usedCriteriaConfig) {
             Criteria criteria = criteriaConfig.criteria();
             var attributes = criteriaConfig.data();
@@ -62,7 +81,6 @@ public class ConfigLoader {
                 }
             }
         }
-
     }
 
     private static void extractDefaultConfigs(Execution execution, List<CriteriaConfig> defaultCriteriaConfig, HashMap<String, InterventionConfig> interventionConfigs, HashMap<String, QualityAttributeConfig> qualityAttributesConfigs, HashMap<String, ImportanceConfig> importanceConfigs) {
@@ -102,14 +120,7 @@ public class ConfigLoader {
         }
     }
 
-    private InterventionConfig toInterventionConfig(CriteriaConfig.Attributes attributes, boolean isDefault) {
-        var interventionConfig = new InterventionConfig();
 
-    }
-
-    public void loadSmellConfig() {
-
-    }
 
     public void loadMetricThresholds() {}
 }

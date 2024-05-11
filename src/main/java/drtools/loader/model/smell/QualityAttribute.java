@@ -1,4 +1,4 @@
-package drtools.loader.model;
+package drtools.loader.model.smell;
 
 import drtools.loader.model.criteria.QualityAttributeName;
 import drtools.loader.model.criteria.QualityImpact;

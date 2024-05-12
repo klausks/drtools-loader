@@ -1,7 +1,6 @@
 package drtools.loader.model.smell;
 
 import drtools.loader.model.Granularity;
-import drtools.loader.model.QualityAttribute;
 import jakarta.persistence.*;
 
 import java.util.List;

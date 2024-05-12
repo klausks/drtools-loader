@@ -25,33 +25,32 @@ import java.util.Map;
 @Component
 public class CriteriaConfigLoader {
 
-    private final MetricThresholdsParser metricThresholdsParser;
-    private final SmellConfigParser smellConfigParser;
     private final CriteriaConfigParser criteriaConfigParser;
 
+    private final QualityAttributeRepository qualityAttributeRepository;
     private final ImportanceConfigRepository importanceConfigRepository;
     private final QualityAttributeConfigRepository qualityAttributeConfigRepository;
     private final InterventionConfigrepository interventionConfigrepository;
-    private final SmellConfigRepository smellConfigRepositoryRepository;
 
 
-    public CriteriaConfigLoader(MetricThresholdsParser metricThresholdsParser, SmellConfigParser smellConfigParser, CriteriaConfigParser criteriaConfigParser, ImportanceConfigRepository importanceConfigRepository, QualityAttributeConfigRepository qualityAttributeConfigRepository, InterventionConfigrepository interventionConfigrepository, SmellConfigRepository smellConfigRepositoryRepository) {
-        this.metricThresholdsParser = metricThresholdsParser;
-        this.smellConfigParser = smellConfigParser;
+
+    public CriteriaConfigLoader(CriteriaConfigParser criteriaConfigParser, ImportanceConfigRepository importanceConfigRepository, QualityAttributeConfigRepository qualityAttributeConfigRepository, InterventionConfigrepository interventionConfigrepository,
+                                QualityAttributeRepository qualityAttributeRepository
+    ) {
+        this.qualityAttributeRepository = qualityAttributeRepository;
         this.criteriaConfigParser = criteriaConfigParser;
         this.importanceConfigRepository = importanceConfigRepository;
         this.qualityAttributeConfigRepository = qualityAttributeConfigRepository;
         this.interventionConfigrepository = interventionConfigrepository;
-        this.smellConfigRepositoryRepository = smellConfigRepositoryRepository;
     }
 
     public void loadCriteriaConfig(Execution execution) throws IOException {
         List<CriteriaConfig> defaultCriteriaConfig = criteriaConfigParser.parseDefault();
         List<CriteriaConfig> usedCriteriaConfig = criteriaConfigParser.parseUsed();
+        var qualityAttributes = new HashMap<String, QualityAttribute>();
         var importanceConfigs = new HashMap<String, ImportanceConfig>();
         var interventionConfigs = new HashMap<String, InterventionConfig>();
         var qualityAttributesConfigs = new HashMap<String, QualityAttributeConfig>();
-        var qualityAttributes = new HashMap<String, QualityAttribute>();
 
         extractDefaultConfigs(execution, defaultCriteriaConfig, qualityAttributes, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
         extractUsedConfig(usedCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);

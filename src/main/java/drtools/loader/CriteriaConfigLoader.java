@@ -1,20 +1,15 @@
 package drtools.loader;
 
-import drtools.loader.in.metrics.MetricThresholdsParser;
-import drtools.loader.in.smell.SmellConfigParser;
 import drtools.loader.in.smell.criteria.CriteriaConfig;
 import drtools.loader.in.smell.criteria.CriteriaConfigParser;
 import drtools.loader.model.Execution;
-import drtools.loader.model.QualityAttribute;
+import drtools.loader.model.smell.QualityAttribute;
 import drtools.loader.model.criteria.Criteria;
 import drtools.loader.model.criteria.QualityAttributeName;
 import drtools.loader.model.smell.config.ImportanceConfig;
 import drtools.loader.model.smell.config.InterventionConfig;
 import drtools.loader.model.smell.config.QualityAttributeConfig;
-import drtools.loader.out.smell.config.ImportanceConfigRepository;
-import drtools.loader.out.smell.config.InterventionConfigrepository;
-import drtools.loader.out.smell.config.QualityAttributeConfigRepository;
-import drtools.loader.out.smell.config.SmellConfigRepository;
+import drtools.loader.out.smell.config.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

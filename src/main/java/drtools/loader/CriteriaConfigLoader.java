@@ -5,11 +5,12 @@ import drtools.loader.in.smell.SmellConfigParser;
 import drtools.loader.in.smell.criteria.CriteriaConfig;
 import drtools.loader.in.smell.criteria.CriteriaConfigParser;
 import drtools.loader.model.Execution;
+import drtools.loader.model.QualityAttribute;
 import drtools.loader.model.criteria.Criteria;
+import drtools.loader.model.criteria.QualityAttributeName;
 import drtools.loader.model.smell.config.ImportanceConfig;
 import drtools.loader.model.smell.config.InterventionConfig;
 import drtools.loader.model.smell.config.QualityAttributeConfig;
-import drtools.loader.model.smell.config.SmellConfig;
 import drtools.loader.out.smell.config.ImportanceConfigRepository;
 import drtools.loader.out.smell.config.InterventionConfigrepository;
 import drtools.loader.out.smell.config.QualityAttributeConfigRepository;
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Component
 public class CriteriaConfigLoader {
@@ -49,8 +51,9 @@ public class CriteriaConfigLoader {
         var importanceConfigs = new HashMap<String, ImportanceConfig>();
         var interventionConfigs = new HashMap<String, InterventionConfig>();
         var qualityAttributesConfigs = new HashMap<String, QualityAttributeConfig>();
+        var qualityAttributes = new HashMap<String, QualityAttribute>();
 
-        extractDefaultConfigs(execution, defaultCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
+        extractDefaultConfigs(execution, defaultCriteriaConfig, qualityAttributes, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
         extractUsedConfig(usedCriteriaConfig, interventionConfigs, qualityAttributesConfigs, importanceConfigs);
 
         importanceConfigRepository.saveAll(importanceConfigs.values());
@@ -58,7 +61,7 @@ public class CriteriaConfigLoader {
         qualityAttributeConfigRepository.saveAll(qualityAttributesConfigs.values());
     }
 
-    private static void extractUsedConfig(List<CriteriaConfig> usedCriteriaConfig, HashMap<String, InterventionConfig> interventionConfigs, HashMap<String, QualityAttributeConfig> qualityAttributesConfigs, HashMap<String, ImportanceConfig> importanceConfigs) {
+    private static void extractUsedConfig(List<CriteriaConfig> usedCriteriaConfig, Map<String, InterventionConfig> interventionConfigs, Map<String, QualityAttributeConfig> qualityAttributesConfigs, Map<String, ImportanceConfig> importanceConfigs) {
         for (CriteriaConfig criteriaConfig : usedCriteriaConfig) {
             Criteria criteria = criteriaConfig.criteria();
             var attributes = criteriaConfig.data();
@@ -83,7 +86,7 @@ public class CriteriaConfigLoader {
         }
     }
 
-    private static void extractDefaultConfigs(Execution execution, List<CriteriaConfig> defaultCriteriaConfig, HashMap<String, InterventionConfig> interventionConfigs, HashMap<String, QualityAttributeConfig> qualityAttributesConfigs, HashMap<String, ImportanceConfig> importanceConfigs) {
+    private static void extractDefaultConfigs(Execution execution, List<CriteriaConfig> defaultCriteriaConfig, Map<String, QualityAttribute> qualityAttributes, Map<String, InterventionConfig> interventionConfigs, Map<String, QualityAttributeConfig> qualityAttributesConfigs, Map<String, ImportanceConfig> importanceConfigs) {
         for (CriteriaConfig criteriaConfig : defaultCriteriaConfig) {
             Criteria criteria = criteriaConfig.criteria();
             var attributes = criteriaConfig.data();
@@ -99,12 +102,15 @@ public class CriteriaConfigLoader {
                 }
                 case QUALITY -> {
                     attributes.forEach(attr -> {
+                        var qualityAttribute = new QualityAttribute();
+                        qualityAttribute.setName(QualityAttributeName.valueOf(attr.description()));
+                        qualityAttributes.put(qualityAttribute.getName().toString(), qualityAttribute);
                         var qualityAttributesConfig = new QualityAttributeConfig();
-                        qualityAttributesConfig.setQualityAttributeDescription(attr.description());
+                        qualityAttributesConfig.setQualityAttribute(qualityAttribute);
                         qualityAttributesConfig.setWeightDefault(attr.weight());
                         qualityAttributesConfig.setImpactDefault(attr.impact());
                         qualityAttributesConfig.setLastExecution(execution);
-                        qualityAttributesConfigs.put(attr.description(), qualityAttributesConfig);
+                        qualityAttributesConfigs.put(qualityAttribute.getName().toString(), qualityAttributesConfig);
                     } );
                 }
                 case IMPORTANCE -> {
@@ -119,8 +125,4 @@ public class CriteriaConfigLoader {
             }
         }
     }
-
-
-
-    public void loadMetricThresholds() {}
 }

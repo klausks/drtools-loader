@@ -14,15 +14,23 @@ public class QualityAttribute {
     @GeneratedValue
     private int id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     @Enumerated(EnumType.STRING)
     private QualityAttributeName name;
 
-    @Column(nullable = false)
-    private double weight;
+    public int getId() {
+        return id;
+    }
 
-    @Enumerated(EnumType.ORDINAL)
-    @Column(nullable = false)
-    private QualityImpact impact;
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    public QualityAttributeName getName() {
+        return name;
+    }
+
+    public void setName(QualityAttributeName name) {
+        this.name = name;
+    }
 }

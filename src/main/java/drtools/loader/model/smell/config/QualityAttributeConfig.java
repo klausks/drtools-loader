@@ -1,6 +1,7 @@
 package drtools.loader.model.smell.config;
 
 import drtools.loader.model.Execution;
+import drtools.loader.model.QualityAttribute;
 import drtools.loader.model.criteria.QualityImpact;
 import jakarta.persistence.*;
 
@@ -18,8 +19,9 @@ public class QualityAttributeConfig {
     @JoinColumn(name = "last_execution_id", referencedColumnName = "id")
     private Execution lastExecution;
 
-    @Column(nullable = false, unique = true)
-    private String qualityAttributeDescription;
+    @ManyToOne
+    @JoinColumn(name = "quality_attribute_id", referencedColumnName = "id")
+    private QualityAttribute qualityAttribute;
 
     private double weightDefault;
 
@@ -47,12 +49,12 @@ public class QualityAttributeConfig {
         this.lastExecution = lastExecution;
     }
 
-    public String getQualityAttributeDescription() {
-        return qualityAttributeDescription;
+    public QualityAttribute getQualityAttribute() {
+        return qualityAttribute;
     }
 
-    public void setQualityAttributeDescription(String qualityAttributeDescription) {
-        this.qualityAttributeDescription = qualityAttributeDescription;
+    public void setQualityAttribute(QualityAttribute qualityAttribute) {
+        this.qualityAttribute = qualityAttribute;
     }
 
     public double getWeightDefault() {

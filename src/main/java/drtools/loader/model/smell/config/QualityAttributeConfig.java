@@ -1,7 +1,7 @@
 package drtools.loader.model.smell.config;
 
 import drtools.loader.model.Execution;
-import drtools.loader.model.QualityAttribute;
+import drtools.loader.model.smell.QualityAttribute;
 import drtools.loader.model.criteria.QualityImpact;
 import jakarta.persistence.*;
 

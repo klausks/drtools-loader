@@ -42,7 +42,7 @@ public class InterventionConfig {
         this.lastExecution = lastExecution;
     }
 
-    public String getIntervention() {
+    public Intervention getIntervention() {
         return intervention;
     }
 

@@ -7,19 +7,18 @@ import drtools.loader.domain.smell.config.QualityAttributeConfig;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Component
-public class QualityAttributesConfigComparator {
+public class QualityAttributesConfigDeltaService {
     private final QualityAttributeConfigRepository qualityAttributeConfigRepository;
     private final ExecutionRepository executionRepository;
 
-    public QualityAttributesConfigComparator(QualityAttributeConfigRepository qualityAttributeConfigRepository,
-                                             ExecutionRepository executionRepository
+    public QualityAttributesConfigDeltaService(QualityAttributeConfigRepository qualityAttributeConfigRepository,
+                                               ExecutionRepository executionRepository
     ) {
         this.qualityAttributeConfigRepository = qualityAttributeConfigRepository;
         this.executionRepository = executionRepository;
@@ -33,6 +32,8 @@ public class QualityAttributesConfigComparator {
         currentConfigs.forEach((qualityAttributeName, currentConfig) -> {
             var newConfig = inputConfigs.get(qualityAttributeName);
             if (hasChanged(currentConfig, newConfig)) {
+                // Needs to be set due to foreign key relationship, so that when the record is saved, it references the existing quality attribute record.
+                newConfig.setQualityAttribute(currentConfig.getQualityAttribute());
                 changedConfigs.add(newConfig);
             }
         });
@@ -40,8 +41,7 @@ public class QualityAttributesConfigComparator {
     }
 
     private boolean hasChanged(QualityAttributeConfig currentConfig, QualityAttributeConfig newConfig) {
-        return !currentConfig.getQualityAttribute().getName().equals(newConfig.getQualityAttribute().getName())
-                || !currentConfig.getImpactUsed().equals(newConfig.getImpactUsed())
+        return !currentConfig.getImpactUsed().equals(newConfig.getImpactUsed())
                 || !currentConfig.getImpactDefault().equals(newConfig.getImpactDefault())
                 || currentConfig.getWeightDefault() != newConfig.getWeightDefault()
                 || currentConfig.getWeightUsed() != newConfig.getWeightUsed();

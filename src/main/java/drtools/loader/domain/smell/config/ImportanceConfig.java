@@ -1,6 +1,7 @@
 package drtools.loader.domain.smell.config;
 
 import drtools.loader.domain.Execution;
+import drtools.loader.domain.criteria.Importance;
 import jakarta.persistence.*;
 
 @Entity
@@ -17,7 +18,8 @@ public class ImportanceConfig {
     private Execution lastExecution;
 
     @Column(nullable = false)
-    private String importanceDescription;
+    @Enumerated(EnumType.ORDINAL)
+    private Importance importance;
 
     private double weightDefault;
 
@@ -39,12 +41,12 @@ public class ImportanceConfig {
         this.lastExecution = lastExecution;
     }
 
-    public String getImportanceDescription() {
-        return importanceDescription;
+    public Importance getImportance() {
+        return importance;
     }
 
-    public void setImportanceDescription(String importanceDescription) {
-        this.importanceDescription = importanceDescription;
+    public void setImportance(Importance importance) {
+        this.importance = importance;
     }
 
     public double getWeightDefault() {

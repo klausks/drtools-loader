@@ -130,7 +130,7 @@ public class CriteriaMapper implements InputQualityAttributesProvider, InputQual
                 case IMPORTANCE -> attributes.forEach(attr -> {
                     var importance = Importance.valueOf(attr.description().toUpperCase());
                     var importanceConfig = new ImportanceConfig();
-                    importanceConfig.setImportanceDescription(attr.description());
+                    importanceConfig.setImportance(importance);
                     importanceConfig.setWeightDefault(attr.weight());
                     importanceConfigs.put(importance, importanceConfig);
                 } );

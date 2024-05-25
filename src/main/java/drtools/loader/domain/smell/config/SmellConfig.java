@@ -26,11 +26,19 @@ public class SmellConfig {
 
     @Enumerated(EnumType.ORDINAL)
     @Column(nullable = false)
-    private Importance importance;
+    private Importance defaultImportance;
 
     @Enumerated(EnumType.ORDINAL)
     @Column(nullable = false)
-    private Intervention intervention;
+    private Importance usedImportance;
+
+    @Enumerated(EnumType.ORDINAL)
+    @Column(nullable = false)
+    private Intervention defaultIntervention;
+
+    @Enumerated(EnumType.ORDINAL)
+    @Column(nullable = false)
+    private Intervention usedIntervention;
 
     public int getId() {
         return id;
@@ -48,6 +56,22 @@ public class SmellConfig {
         this.smell = smell;
     }
 
+    public Importance getUsedImportance() {
+        return usedImportance;
+    }
+
+    public void setUsedImportance(Importance usedImportance) {
+        this.usedImportance = usedImportance;
+    }
+
+    public Intervention getUsedIntervention() {
+        return usedIntervention;
+    }
+
+    public void setUsedIntervention(Intervention usedIntervention) {
+        this.usedIntervention = usedIntervention;
+    }
+
     public Execution getLastExecution() {
         return lastExecution;
     }
@@ -56,19 +80,19 @@ public class SmellConfig {
         this.lastExecution = lastExecution;
     }
 
-    public Importance getImportance() {
-        return importance;
+    public Importance getDefaultImportance() {
+        return defaultImportance;
     }
 
-    public void setImportance(Importance importance) {
-        this.importance = importance;
+    public void setDefaultImportance(Importance importance) {
+        this.defaultImportance = importance;
     }
 
-    public Intervention getIntervention() {
-        return intervention;
+    public Intervention getDefaultIntervention() {
+        return defaultIntervention;
     }
 
-    public void setIntervention(Intervention intervention) {
-        this.intervention = intervention;
+    public void setDefaultIntervention(Intervention intervention) {
+        this.defaultIntervention = intervention;
     }
 }

@@ -1,6 +1,6 @@
 package drtools.loader.adapter.in;
 
-import drtools.loader.adapter.out.json.smell.SmellConfigParser;
+import drtools.loader.adapter.out.json.smell.SmellConfigJsonParser;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
@@ -9,9 +9,9 @@ import java.io.IOException;
 @ShellComponent
 public class Commands {
 
-    private final SmellConfigParser parser;
+    private final SmellConfigJsonParser parser;
 
-    public Commands(SmellConfigParser parser) {
+    public Commands(SmellConfigJsonParser parser) {
         this.parser = parser;
     }
 

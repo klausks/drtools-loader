@@ -6,10 +6,12 @@ import drtools.loader.application.port.out.InputInterventionConfigsProvider;
 import drtools.loader.application.port.out.InputQualityAttributesConfigProvider;
 import drtools.loader.application.port.out.InputQualityAttributesProvider;
 import drtools.loader.application.port.out.repository.smell.config.ImportanceConfigRepository;
-import drtools.loader.application.port.out.repository.smell.config.InterventionConfigrepository;
+import drtools.loader.application.port.out.repository.smell.config.InterventionConfigRepository;
 import drtools.loader.application.port.out.repository.smell.config.QualityAttributeConfigRepository;
 import drtools.loader.application.port.out.repository.smell.config.QualityAttributeRepository;
-import drtools.loader.application.service.QualityAttributesConfigComparator;
+import drtools.loader.application.service.ImportanceConfigDeltaService;
+import drtools.loader.application.service.InterventionConfigDeltaService;
+import drtools.loader.application.service.QualityAttributesConfigDeltaService;
 import drtools.loader.domain.Execution;
 import org.springframework.stereotype.Component;
 
@@ -26,9 +28,11 @@ public class CriteriaConfigLoader {
     private final QualityAttributeRepository qualityAttributeRepository;
     private final ImportanceConfigRepository importanceConfigRepository;
     private final QualityAttributeConfigRepository qualityAttributeConfigRepository;
-    private final InterventionConfigrepository interventionConfigrepository;
+    private final InterventionConfigRepository interventionConfigrepository;
 
-    private final QualityAttributesConfigComparator qualityAttributesConfigComparator;
+    private final QualityAttributesConfigDeltaService qualityAttributesConfigDeltaService;
+    private final InterventionConfigDeltaService interventionConfigDeltaService;
+    private final ImportanceConfigDeltaService importanceConfigDeltaService;
 
 
 
@@ -36,9 +40,11 @@ public class CriteriaConfigLoader {
             InputQualityAttributesProvider inputQualityAttributesProvider,
             InputQualityAttributesConfigProvider inputQualityAttributesConfigProvider,
             InputImportanceConfigsProvider inputImportanceConfigsProvider,
-            InputInterventionConfigsProvider inputInterventionConfigsProvider, ImportanceConfigRepository importanceConfigRepository, QualityAttributeConfigRepository qualityAttributeConfigRepository, InterventionConfigrepository interventionConfigrepository,
+            InputInterventionConfigsProvider inputInterventionConfigsProvider, ImportanceConfigRepository importanceConfigRepository, QualityAttributeConfigRepository qualityAttributeConfigRepository, InterventionConfigRepository interventionConfigrepository,
             QualityAttributeRepository qualityAttributeRepository,
-            QualityAttributesConfigComparator qualityAttributesConfigComparator
+            QualityAttributesConfigDeltaService qualityAttributesConfigDeltaService,
+            InterventionConfigDeltaService interventionConfigDeltaService,
+            ImportanceConfigDeltaService importanceConfigDeltaService
     ) {
         this.inputQualityAttributesProvider = inputQualityAttributesProvider;
         this.inputQualityAttributesConfigProvider = inputQualityAttributesConfigProvider;
@@ -48,7 +54,9 @@ public class CriteriaConfigLoader {
         this.importanceConfigRepository = importanceConfigRepository;
         this.qualityAttributeConfigRepository = qualityAttributeConfigRepository;
         this.interventionConfigrepository = interventionConfigrepository;
-        this.qualityAttributesConfigComparator = qualityAttributesConfigComparator;
+        this.qualityAttributesConfigDeltaService = qualityAttributesConfigDeltaService;
+        this.interventionConfigDeltaService = interventionConfigDeltaService;
+        this.importanceConfigDeltaService = importanceConfigDeltaService;
     }
 
     public void loadCriteriaConfig(Execution execution) throws IOException, InputLoadingException {
@@ -63,9 +71,9 @@ public class CriteriaConfigLoader {
             qualityAttributeRepository.saveAll(inputQualityAttributes.values());
             qualityAttributeConfigRepository.saveAll(inputQualityAttributesConfigs.values());
         } else {
-            qualityAttributeConfigRepository.saveAll(qualityAttributesConfigComparator.getChangedConfigs(inputQualityAttributesConfigs));
-            importanceConfigRepository.saveAll(
-            // TODO: Implement config change detection
+            qualityAttributeConfigRepository.saveAll(qualityAttributesConfigDeltaService.getChangedConfigs(inputQualityAttributesConfigs));
+            importanceConfigRepository.saveAll(importanceConfigDeltaService.getChangedConfigs(inputImportanceConfigs));
+            interventionConfigrepository.saveAll(interventionConfigDeltaService.getChangedConfigs(inputInterventionConfigs));
         }
     }
 }

@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Component
-public class SmellConfigParser {
+public class SmellConfigJsonParser {
 
     private static final String DEFAULT_SMELLS_CONFIG_FILE = "drtools-smells-default.json";
     private static final String USED_SMELLS_CONFIG_FILE = "drtools-smells-default.json";
@@ -18,7 +18,7 @@ public class SmellConfigParser {
     private final JsonFileHandler jsonFileHandler;
     private final ObjectMapper objectMapper = new ObjectMapper().enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS);
 
-    public SmellConfigParser(JsonFileHandler jsonFileHandler) {
+    public SmellConfigJsonParser(JsonFileHandler jsonFileHandler) {
         this.jsonFileHandler = jsonFileHandler;
     }
 

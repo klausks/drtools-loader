@@ -1,1 +1,14 @@
-[{"namespace":"io.kubernetes.client.openapi.models","cdi":"21,802"},{"namespace":"io.kubernetes.client.openapi.apis","cdi":"5,669"},{"namespace":"io.kubernetes.client.openapi","cdi":"3,934"}]
+[
+  {
+    "namespace": "io.kubernetes.client.openapi.models",
+    "cdi": "21,802"
+  },
+  {
+    "namespace": "io.kubernetes.client.openapi.apis",
+    "cdi": "5,669"
+  },
+  {
+    "namespace": "io.kubernetes.client.openapi",
+    "cdi": "3,934"
+  }
+]

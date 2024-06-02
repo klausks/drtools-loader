@@ -6,10 +6,10 @@ import drtools.loader.domain.smell.Smell;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = SmellsSummary.TABLE_NAME)
-public class SmellsSummary {
+@Table(name = SmellSummary.TABLE_NAME)
+public class SmellSummary {
 
-    public static final String TABLE_NAME = "smells_summary";
+    public static final String TABLE_NAME = "smell_summary";
 
     @Id
     @GeneratedValue

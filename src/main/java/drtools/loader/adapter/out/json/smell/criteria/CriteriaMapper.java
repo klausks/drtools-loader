@@ -1,10 +1,10 @@
 package drtools.loader.adapter.out.json.smell.criteria;
 
 import drtools.loader.adapter.out.exception.InputLoadingException;
-import drtools.loader.application.port.out.InputImportanceConfigsProvider;
-import drtools.loader.application.port.out.InputInterventionConfigsProvider;
-import drtools.loader.application.port.out.InputQualityAttributesConfigProvider;
-import drtools.loader.application.port.out.InputQualityAttributesProvider;
+import drtools.loader.application.port.out.input.InputImportanceConfigsProvider;
+import drtools.loader.application.port.out.input.InputInterventionConfigsProvider;
+import drtools.loader.application.port.out.input.InputQualityAttributesConfigProvider;
+import drtools.loader.application.port.out.input.InputQualityAttributesProvider;
 import drtools.loader.domain.criteria.Criteria;
 import drtools.loader.domain.criteria.Importance;
 import drtools.loader.domain.criteria.Intervention;

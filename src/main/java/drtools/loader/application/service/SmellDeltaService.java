@@ -15,11 +15,12 @@ import java.util.stream.Collectors;
 @Component
 public class SmellDeltaService {
     private final SmellRepository smellRepository;
-    private final List<QualityAttribute> qualityAttributes;
+    private final QualityAttributeRepository qualityAttributeRepository;
+    private List<QualityAttribute> qualityAttributes;
 
     public SmellDeltaService(SmellRepository smellConfigRepository, QualityAttributeRepository qualityAttributeRepository) {
         this.smellRepository = smellConfigRepository;
-        this.qualityAttributes = qualityAttributeRepository.findAll();
+        this.qualityAttributeRepository = qualityAttributeRepository;
     }
 
     public List<Smell> getChangedSmells(Map<String, Smell> inputSmells) {
@@ -39,6 +40,11 @@ public class SmellDeltaService {
         return changedSmells;
     }
 
+    private List<QualityAttribute> getQualityAttributes(Smell inputSmell) {
+        return qualityAttributes.stream()
+                                .filter(qualityAttribute -> inputSmell.getImpactedQualityAttributes().contains(qualityAttribute)).collect(Collectors.toList());
+    }
+
     private boolean hasChanged(Smell currentSmell, Smell newSmell) {
         if (!currentSmell.getName().equals(newSmell.getName())) {
             throw new RuntimeException();
@@ -52,5 +58,4 @@ public class SmellDeltaService {
         var newSmellImpactedQualityAttributeNames = newSmell.getImpactedQualityAttributes().stream().map(QualityAttribute::getName).toList();
         return currentSmellImpactedQualityAttributeNames.containsAll(newSmellImpactedQualityAttributeNames);
     }
-
 }

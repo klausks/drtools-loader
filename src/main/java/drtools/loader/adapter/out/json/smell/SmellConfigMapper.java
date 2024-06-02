@@ -1,36 +1,40 @@
 package drtools.loader.adapter.out.json.smell;
 
 import drtools.loader.adapter.out.exception.InputLoadingException;
-import drtools.loader.application.port.out.InputSmellConfigProvider;
-import drtools.loader.application.port.out.InputSmellProvider;
-import drtools.loader.application.port.out.repository.smell.config.QualityAttributeRepository;
+import drtools.loader.adapter.out.json.JsonInputParser;
+import drtools.loader.application.port.out.input.InputSmellConfigProvider;
+import drtools.loader.application.port.out.input.InputSmellProvider;
 import drtools.loader.domain.criteria.QualityAttributeName;
 import drtools.loader.domain.smell.QualityAttribute;
 import drtools.loader.domain.smell.Smell;
 import drtools.loader.domain.smell.config.SmellConfig;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 @Component
-public class SmellMapper implements InputSmellProvider, InputSmellConfigProvider {
+public class SmellConfigMapper implements InputSmellProvider, InputSmellConfigProvider {
 
-    private final SmellConfigJsonParser smellConfigJsonParser;
-    private final QualityAttributeRepository qualityAttributeRepository;
+    private static final String DEFAULT_SMELLS_CONFIG_FILE = "drtools-smells-default.json";
+    private static final String USED_SMELLS_CONFIG_FILE = "drtools-smells-default.json";
+
+    @Value("${drtools.analysis.files.smells.dir}")
+    private String SMELLS_DIR;
+
+    private final JsonInputParser smellConfigJsonParser;
     private final Map<String, Smell> smells = new HashMap<>();
     private final Map<String, SmellConfig> smellConfigs = new HashMap<>();
 
     private boolean isLoaded = false;
 
-    public SmellMapper(SmellConfigJsonParser smellConfigJsonParser, QualityAttributeRepository qualityAttributeRepository) {
+    public SmellConfigMapper(JsonInputParser smellConfigJsonParser) {
         this.smellConfigJsonParser = smellConfigJsonParser;
-        this.qualityAttributeRepository = qualityAttributeRepository;
     }
 
     @Override
@@ -54,8 +58,8 @@ public class SmellMapper implements InputSmellProvider, InputSmellConfigProvider
 
     private void loadInputData() throws InputLoadingException {
         try {
-            var smellDefaultConfigJsons = smellConfigJsonParser.parseDefault();
-            var smellUsedConfigJsons = smellConfigJsonParser.parseUsed();
+            List<SmellConfigJsonDto> smellDefaultConfigJsons = smellConfigJsonParser.parseInput(SMELLS_DIR + File.separator + DEFAULT_SMELLS_CONFIG_FILE);
+            List<SmellConfigJsonDto> smellUsedConfigJsons = smellConfigJsonParser.parseInput(SMELLS_DIR + File.separator + USED_SMELLS_CONFIG_FILE);
             initDataWithConfigs(smellDefaultConfigJsons);
             updateDataWithConfigs(smellUsedConfigJsons);
         } catch(IOException e) {
@@ -65,13 +69,12 @@ public class SmellMapper implements InputSmellProvider, InputSmellConfigProvider
     }
 
     private void initDataWithConfigs(List<SmellConfigJsonDto> configJsons) {
-        var qualityAttributes = qualityAttributeRepository.findAll().stream().collect(Collectors.toMap(QualityAttribute::getName, Function.identity()));
         configJsons.forEach(configJson -> {
             Smell smell = new Smell();
             smell.setName(configJson.smell());
             smell.setDescription(configJson.description());
             smell.setGranularity(configJson.granularity());
-            var impactedQualityAttributes = mapImpactedQualityAttributes(configJson, qualityAttributes);
+            var impactedQualityAttributes = impactedQualityAttributes(configJson);
             smell.setImpactedQualityAttributes(impactedQualityAttributes);
             smells.put(smell.getName(), smell);
 
@@ -83,11 +86,12 @@ public class SmellMapper implements InputSmellProvider, InputSmellConfigProvider
         });
     }
 
-    private List<QualityAttribute> mapImpactedQualityAttributes (SmellConfigJsonDto configJson, Map<QualityAttributeName, QualityAttribute> qualityAttributes) {
-        var impactedQualityAttributeNames = Arrays.asList(configJson.quality().split(", "));
-        return impactedQualityAttributeNames.stream().map(
-                attrName -> qualityAttributes.get(QualityAttributeName.valueOf(attrName.toUpperCase()))
-        ).toList();
+    private List<QualityAttribute> impactedQualityAttributes(SmellConfigJsonDto configJson) {
+        return Arrays.stream(configJson.quality().split(", ")).map(qualityAttributeName -> {
+            var qualityAttribute = new QualityAttribute();
+            qualityAttribute.setName(QualityAttributeName.valueOf(qualityAttributeName));
+            return qualityAttribute;
+        }).toList();
     }
 
     private void updateDataWithConfigs(List<SmellConfigJsonDto> configJsons) {

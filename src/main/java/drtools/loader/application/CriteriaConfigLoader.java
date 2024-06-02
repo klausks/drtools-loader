@@ -1,10 +1,10 @@
 package drtools.loader.application;
 
 import drtools.loader.adapter.out.exception.InputLoadingException;
-import drtools.loader.application.port.out.InputImportanceConfigsProvider;
-import drtools.loader.application.port.out.InputInterventionConfigsProvider;
-import drtools.loader.application.port.out.InputQualityAttributesConfigProvider;
-import drtools.loader.application.port.out.InputQualityAttributesProvider;
+import drtools.loader.application.port.out.input.InputImportanceConfigsProvider;
+import drtools.loader.application.port.out.input.InputInterventionConfigsProvider;
+import drtools.loader.application.port.out.input.InputQualityAttributesConfigProvider;
+import drtools.loader.application.port.out.input.InputQualityAttributesProvider;
 import drtools.loader.application.port.out.repository.smell.config.ImportanceConfigRepository;
 import drtools.loader.application.port.out.repository.smell.config.InterventionConfigRepository;
 import drtools.loader.application.port.out.repository.smell.config.QualityAttributeConfigRepository;

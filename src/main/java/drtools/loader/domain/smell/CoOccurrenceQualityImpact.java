@@ -1,5 +1,6 @@
 package drtools.loader.domain.smell;
 
+import drtools.loader.domain.criteria.CoOccurrenceQualityAttributeName;
 import jakarta.persistence.*;
 
 @Entity
@@ -13,7 +14,8 @@ public class CoOccurrenceQualityImpact {
     private int id;
 
     @Column(unique = true, nullable = false)
-    private String name;
+    @Enumerated(EnumType.STRING)
+    private CoOccurrenceQualityAttributeName name;
 
     public int getId() {
         return id;
@@ -23,11 +25,11 @@ public class CoOccurrenceQualityImpact {
         this.id = id;
     }
 
-    public String getName() {
+    public CoOccurrenceQualityAttributeName getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(CoOccurrenceQualityAttributeName name) {
         this.name = name;
     }
 }
